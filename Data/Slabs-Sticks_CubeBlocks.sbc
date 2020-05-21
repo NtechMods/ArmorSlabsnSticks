@@ -1,0 +1,451 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>3x1x1HeavyArmor</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_3x1x1HeavyArmor</DisplayName>
+			<Description>Description_3x1x1HeavyArmor</Description>
+			<Icon>Textures\Icons\311ArmorStick.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\3x1x1HeavyArmor.mwm</Model>
+			<Components>
+				<Component Count="10" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="3.0" EndY="1.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="3.0" EndY="1.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
+			</MountPoints>
+			<BlockPairName>3x1x1HeavyArmor</BlockPairName>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>3x1x1LightArmor</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_3x1x1LightArmor</DisplayName>
+			<Description>Description_3x1x1LightArmor</Description>
+			<Icon>Textures\Icons\311ArmorStick.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\3x1x1LightArmor.mwm</Model>
+			<Components>
+				<Component Count="10" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="3.0" EndY="1.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="3.0" EndY="1.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
+			</MountPoints>
+			<BlockPairName>3x1x1LightArmor</BlockPairName>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>3x3x1HeavyArmor</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_3x3x1HeavyArmor</DisplayName>
+			<Description>Description_3x3x1HeavyArmor</Description>
+			<Icon>Textures\Icons\331ArmorSlab.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="3" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\3x3x1HeavyArmor.mwm</Model>
+			<Components>
+				<Component Count="10" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
+			</MountPoints>
+			<BlockPairName>3x3x1HeavyArmor</BlockPairName>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>3x3x1LightArmor</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_3x3x1LightArmor</DisplayName>
+			<Description>Description_3x3x1LightArmor</Description>
+			<Icon>Textures\Icons\331ArmorSlab.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="3" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\3x3x1LightArmor.mwm</Model>
+			<Components>
+				<Component Count="10" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
+			</MountPoints>
+			<BlockPairName>3x3x1LightArmor</BlockPairName>
+		</Definition>
+		
+<!-- 4 block width -->
+
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>4x1x1HeavyArmor</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_4x1x1HeavyArmor</DisplayName>
+			<Description>Description_4x1x1HeavyArmor</Description>
+			<Icon>Textures\Icons\411ArmorStick.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="4"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\4x1x1HeavyArmor.mwm</Model>
+			<Components>
+				<Component Count="10" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="4.0" EndY="1.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="4.0" EndY="1.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
+			</MountPoints>
+			<BlockPairName>4x1x1HeavyArmor</BlockPairName>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>4x1x1LightArmor</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_4x1x1LightArmor</DisplayName>
+			<Description>Description_4x1x1LightArmor</Description>
+			<Icon>Textures\Icons\411ArmorStick.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="4"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\4x1x1LightArmor.mwm</Model>
+			<Components>
+				<Component Count="10" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="4.0" EndY="1.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="4.0" EndY="1.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
+			</MountPoints>
+			<BlockPairName>4x1x1LightArmor</BlockPairName>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>4x4x1HeavyArmor</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_4x4x1HeavyArmor</DisplayName>
+			<Description>Description_4x4x1HeavyArmor</Description>
+			<Icon>Textures\Icons\441ArmorSlab.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="4" z="4"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\4x4x1HeavyArmor.mwm</Model>
+			<Components>
+				<Component Count="10" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="4.0" EndY="4.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="4.0" EndY="4.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
+			</MountPoints>
+			<BlockPairName>4x4x1HeavyArmor</BlockPairName>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>4x4x1LightArmor</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_4x4x1LightArmor</DisplayName>
+			<Description>Description_4x4x1LightArmor</Description>
+			<Icon>Textures\Icons\441ArmorSlab.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="4" z="4"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\4x4x1LightArmor.mwm</Model>
+			<Components>
+				<Component Count="10" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="4.0" EndY="4.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="4.0" EndY="4.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
+			</MountPoints>
+			<BlockPairName>4x4x1LightArmor</BlockPairName>
+		</Definition>
+		
+<!-- 5 block width -->
+
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>5x1x1HeavyArmor</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_5x1x1HeavyArmor</DisplayName>
+			<Description>Description_5x1x1HeavyArmor</Description>
+			<Icon>Textures\Icons\511ArmorStick.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="5"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\5x1x1HeavyArmor.mwm</Model>
+			<Components>
+				<Component Count="10" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="5.0" EndY="1.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="5.0" EndY="1.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
+			</MountPoints>
+			<BlockPairName>5x1x1HeavyArmor</BlockPairName>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>5x1x1LightArmor</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_5x1x1LightArmor</DisplayName>
+			<Description>Description_5x1x1LightArmor</Description>
+			<Icon>Textures\Icons\511ArmorStick.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="5"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\5x1x1LightArmor.mwm</Model>
+			<Components>
+				<Component Count="10" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="5.0" EndY="1.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="5.0" EndY="1.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
+			</MountPoints>
+			<BlockPairName>5x1x1LightArmor</BlockPairName>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>5x5x1HeavyArmor</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_5x5x1HeavyArmor</DisplayName>
+			<Description>Description_5x5x1HeavyArmor</Description>
+			<Icon>Textures\Icons\551ArmorSlab.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="5" z="5"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\5x5x1HeavyArmor.mwm</Model>
+			<Components>
+				<Component Count="10" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="5.0" EndY="5.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="5.0" EndY="5.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
+			</MountPoints>
+			<BlockPairName>5x5x1HeavyArmor</BlockPairName>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>5x5x1LightArmor</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_5x5x1LightArmor</DisplayName>
+			<Description>Description_5x5x1LightArmor</Description>
+			<Icon>Textures\Icons\551ArmorSlab.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="5" z="5"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\5x5x1LightArmor.mwm</Model>
+			<Components>
+				<Component Count="10" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="5.0" EndY="5.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="5.0" EndY="5.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
+			</MountPoints>
+			<BlockPairName>5x5x1LightArmor</BlockPairName>
+		</Definition>
+		
+		
+<!-- 6 block width -->
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>6x1x1HeavyArmor</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_6x1x1HeavyArmor</DisplayName>
+			<Description>Description_6x1x1HeavyArmor</Description>
+			<Icon>Textures\Icons\611ArmorStick.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="6"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\6x1x1HeavyArmor.mwm</Model>
+			<Components>
+				<Component Count="10" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="6.0" EndY="1.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="6.0" EndY="1.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
+			</MountPoints>
+			<BlockPairName>6x1x1HeavyArmor</BlockPairName>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>6x1x1LightArmor</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_6x1x1LightArmor</DisplayName>
+			<Description>Description_6x1x1LightArmor</Description>
+			<Icon>Textures\Icons\611ArmorStick.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="6"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\6x1x1LightArmor.mwm</Model>
+			<Components>
+				<Component Count="10" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="6.0" EndY="1.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="6.0" EndY="1.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
+			</MountPoints>
+			<BlockPairName>6x1x1LightArmor</BlockPairName>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>6x6x1HeavyArmor</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_6x6x1HeavyArmor</DisplayName>
+			<Description>Description_6x6x1HeavyArmor</Description>
+			<Icon>Textures\Icons\661ArmorSlab.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="6" z="6"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\6x6x1HeavyArmor.mwm</Model>
+			<Components>
+				<Component Count="10" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="6.0" EndY="6.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="6.0" EndY="6.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
+			</MountPoints>
+			<BlockPairName>6x6x1HeavyArmor</BlockPairName>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>6x6x1LightArmor</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_6x6x1LightArmor</DisplayName>
+			<Description>Description_6x6x1LightArmor</Description>
+			<Icon>Textures\Icons\661ArmorSlab.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="6" z="6"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\6x6x1LightArmor.mwm</Model>
+			<Components>
+				<Component Count="10" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="6.0" EndY="6.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="6.0" EndY="6.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
+			</MountPoints>
+			<BlockPairName>6x6x1LightArmor</BlockPairName>
+		</Definition>
+
+
+	</CubeBlocks>
+</Definitions>
