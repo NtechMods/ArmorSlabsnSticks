@@ -1,5 +1,71 @@
 <?xml version="1.0" ?>
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!--Block Groups -->
+
+ <BlockVariantGroups>
+
+        <!-- Reactors -->
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeavyArmorSlabGroup" />
+            <Icon>Textures\Icons\311ArmorStick.dds</Icon>
+            <DisplayName>DisplayName_Block_ArmorSlabs</DisplayName>
+            <Description>Fewer block count per block.</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1HeavyArmor" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1HeavyArmor" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1HeavyArmor" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1HeavyArmor" />
+				
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightArmorSlabGroup" />
+            <Icon>Textures\Icons\311ArmorStick.dds</Icon>
+            <DisplayName>DisplayName_Block_ArmorSlabs</DisplayName>
+            <Description>Fewer block count per block.</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1LightArmor" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1LightArmor" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1LightArmor" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1LightArmor" />
+				
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeavyArmorBeamGroup" />
+            <Icon>Textures\Icons\311ArmorSlab.dds</Icon>
+            <DisplayName>DisplayName_Block_ArmorBeams</DisplayName>
+            <Description>Fewer block count per block.</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HeavyArmor" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1HeavyArmor" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1HeavyArmor" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1HeavyArmor" />
+				
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightArmorBeamGroup" />
+            <Icon>Textures\Icons\311ArmorSlab.dds</Icon>
+            <DisplayName>DisplayName_Block_ArmorSlabs</DisplayName>
+            <Description>Fewer block count per block.</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1LightArmor" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1LightArmor" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1LightArmor" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1LightArmor" />
+				
+            </Blocks>
+        </BlockVariantGroup>
+        
+  </BlockVariantGroups>
+ 
+
+
+
+
 	<CubeBlocks>
 		<Definition>
 			<Id>
