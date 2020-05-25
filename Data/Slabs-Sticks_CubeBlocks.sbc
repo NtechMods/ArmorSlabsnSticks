@@ -18,6 +18,12 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1HeavyArmor" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1HeavyArmor" />
 				
+				
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1HeavyArmorSmall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1HeavyArmorSmall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1HeavyArmorSmall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1HeavyArmorSmall" />
+				
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
@@ -30,6 +36,12 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1LightArmor" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1LightArmor" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1LightArmor" />
+				
+				
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1LightArmorSmall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1LightArmorSmall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1LightArmorSmall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1LightArmorSmall" />
 				
             </Blocks>
         </BlockVariantGroup>
@@ -44,6 +56,12 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1HeavyArmor" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1HeavyArmor" />
 				
+				
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HeavyArmorSmall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1HeavyArmorSmall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1HeavyArmorSmall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1HeavyArmorSmall" />
+				
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
@@ -56,6 +74,12 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1LightArmor" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1LightArmor" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1LightArmor" />
+				
+				
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1LightArmorSmall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1LightArmorSmall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1LightArmorSmall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1LightArmorSmall" />
 				
             </Blocks>
         </BlockVariantGroup>
@@ -575,7 +599,7 @@
 			<DisplayName>3x1x1 Heavy Armor</DisplayName>
 			<Description>3x1x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\311ArmorStick.dds</Icon>
-			<CubeSize>Large</CubeSize>
+			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
@@ -607,7 +631,7 @@
 			<DisplayName>3x1x1 Light Armor</DisplayName>
 			<Description>3x1x1 Light Armor</Description>
 			<Icon>Textures\Icons\311ArmorStick.dds</Icon>
-			<CubeSize>Large</CubeSize>
+			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
@@ -638,7 +662,7 @@
 			<DisplayName>3x3x1 Heavy Armor</DisplayName>
 			<Description>3x3x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\331ArmorSlab.dds</Icon>
-			<CubeSize>Large</CubeSize>
+			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="3" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
@@ -670,7 +694,7 @@
 			<DisplayName>3x3x1 Light Armor</DisplayName>
 			<Description>3x3x1 Light Armor</Description>
 			<Icon>Textures\Icons\331ArmorSlab.dds</Icon>
-			<CubeSize>Large</CubeSize>
+			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="3" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
@@ -705,7 +729,7 @@
 			<DisplayName>4x1x1 Heavy Armor</DisplayName>
 			<Description>4x1x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\411ArmorStick.dds</Icon>
-			<CubeSize>Large</CubeSize>
+			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="4"/>
 			<ModelOffset x="0" y="0" z="0"/>
@@ -736,7 +760,7 @@
 			<DisplayName>4x1x1 Light Armor</DisplayName>
 			<Description>4x1x1 Light Armor</Description>
 			<Icon>Textures\Icons\411ArmorStick.dds</Icon>
-			<CubeSize>Large</CubeSize>
+			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="4"/>
 			<ModelOffset x="0" y="0" z="0"/>
@@ -767,7 +791,7 @@
 			<DisplayName>4x4x1 Heavy Armor</DisplayName>
 			<Description>4x4x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\441ArmorSlab.dds</Icon>
-			<CubeSize>Large</CubeSize>
+			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="4" z="4"/>
 			<ModelOffset x="0" y="0" z="0"/>
@@ -798,7 +822,7 @@
 			<DisplayName>4x4x1 Light Armor</DisplayName>
 			<Description>4x4x1 Light Armor</Description>
 			<Icon>Textures\Icons\441ArmorSlab.dds</Icon>
-			<CubeSize>Large</CubeSize>
+			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="4" z="4"/>
 			<ModelOffset x="0" y="0" z="0"/>
@@ -833,7 +857,7 @@
 			<DisplayName>5x1x1 Heavy Armor</DisplayName>
 			<Description>5x1x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\511ArmorStick.dds</Icon>
-			<CubeSize>Large</CubeSize>
+			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="5"/>
 			<ModelOffset x="0" y="0" z="0"/>
@@ -865,7 +889,7 @@
 			<DisplayName>5x1x1 Light Armor</DisplayName>
 			<Description>5x1x1 Light Armor</Description>
 			<Icon>Textures\Icons\511ArmorStick.dds</Icon>
-			<CubeSize>Large</CubeSize>
+			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="5"/>
 			<ModelOffset x="0" y="0" z="0"/>
@@ -896,7 +920,7 @@
 			<DisplayName>5x5x1 Heavy Armor</DisplayName>
 			<Description>5x5x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\551ArmorSlab.dds</Icon>
-			<CubeSize>Large</CubeSize>
+			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="5" z="5"/>
 			<ModelOffset x="0" y="0" z="0"/>
@@ -927,7 +951,7 @@
 			<DisplayName>5x5x1 Light Armor</DisplayName>
 			<Description>5x5x1 Light Armor</Description>
 			<Icon>Textures\Icons\551ArmorSlab.dds</Icon>
-			<CubeSize>Large</CubeSize>
+			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="5" z="5"/>
 			<ModelOffset x="0" y="0" z="0"/>
@@ -962,7 +986,7 @@
 			<DisplayName>6x1x1 Heavy Armor</DisplayName>
 			<Description>6x1x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\611ArmorStick.dds</Icon>
-			<CubeSize>Large</CubeSize>
+			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="6"/>
 			<ModelOffset x="0" y="0" z="0"/>
@@ -993,7 +1017,7 @@
 			<DisplayName>6x1x1 Light Armor</DisplayName>
 			<Description>6x1x1 Light Armor</Description>
 			<Icon>Textures\Icons\611ArmorStick.dds</Icon>
-			<CubeSize>Large</CubeSize>
+			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="6"/>
 			<ModelOffset x="0" y="0" z="0"/>
@@ -1024,7 +1048,7 @@
 			<DisplayName>6x6x1 Heavy Armor</DisplayName>
 			<Description>6x6x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\661ArmorSlab.dds</Icon>
-			<CubeSize>Large</CubeSize>
+			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="6" z="6"/>
 			<ModelOffset x="0" y="0" z="0"/>
@@ -1055,7 +1079,7 @@
 			<DisplayName>6x6x1 Light Armor</DisplayName>
 			<Description>6x6x1 Light Armor</Description>
 			<Icon>Textures\Icons\661ArmorSlab.dds</Icon>
-			<CubeSize>Large</CubeSize>
+			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="6" z="6"/>
 			<ModelOffset x="0" y="0" z="0"/>
