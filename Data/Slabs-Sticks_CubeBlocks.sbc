@@ -49,7 +49,7 @@
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeavyArmorBeamGroup" />
             <Icon>Textures\Icons\311ArmorSlab.dds</Icon>
             <DisplayName>DisplayName_Block_ArmorBeams</DisplayName>
-            <Description>Fewer block count per block.</Description>
+            <Description>Armor Slab block.</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HeavyArmor" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1HeavyArmor" />
@@ -68,7 +68,7 @@
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightArmorBeamGroup" />
             <Icon>Textures\Icons\311ArmorStick.dds</Icon>
             <DisplayName>DisplayName_Block_ArmorSlabs</DisplayName>
-            <Description>Fewer block count per block.</Description>
+            <Description>Armor beam block.</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1LightArmor" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1LightArmor" />
