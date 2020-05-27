@@ -298,7 +298,7 @@
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\4x4x1HeavyArmor_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\4x4x1LightArmor_BS1.mwm"/>
 			</BuildProgressModels>
 			<MountPoints>
 				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>

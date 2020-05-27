@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<Model Name="3x3x1HeavyArmor">
-	<Parameter Name="RescaleFactor">1.0</Parameter>
-	<Parameter Name="Centered">false</Parameter>
-	<Parameter Name="RescaleToLengthInMeters">false</Parameter>
-	<MaterialRef Name="HeavySquarePlate"/>
-	<MaterialRef Name="Chrome"/>
-</Model>
