@@ -88,7 +88,7 @@
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HighTechArmorBeamGroup" />
             <Icon>Textures\Icons\311ArmorStick.dds</Icon>
-            <DisplayName>DisplayName_Block_ArmorSlabs</DisplayName>
+            <DisplayName>DisplayName_Block_HighTechArmorBeams</DisplayName>
             <Description>Armor beam block.</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HighTechArmor" />
@@ -1154,7 +1154,7 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>3x1x1HightTechArmor</SubtypeId>
+				<SubtypeId>3x1x1HighTechArmor</SubtypeId>
 			</Id>
 			<DisplayName>3x1x1 HightTech Armor</DisplayName>
 			<Description>3x1x1 HightTech Armor</Description>
@@ -1187,7 +1187,7 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>3x3x1HightTechArmor</SubtypeId>
+				<SubtypeId>3x3x1HighTechArmor</SubtypeId>
 			</Id>
 			<DisplayName>3x3x1 HightTech Armor</DisplayName>
 			<Description>3x3x1 HightTech Armor</Description>
@@ -1222,7 +1222,7 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>4x1x1HightTechArmor</SubtypeId>
+				<SubtypeId>4x1x1HighTechArmor</SubtypeId>
 			</Id>
 			<DisplayName>4x1x1 HightTech Armor</DisplayName>
 			<Description>4x1x1 HightTech Armor</Description>
@@ -1253,7 +1253,7 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>4x4x1HightTechArmor</SubtypeId>
+				<SubtypeId>4x4x1HighTechArmor</SubtypeId>
 			</Id>
 			<DisplayName>4x4x1 HightTech Armor</DisplayName>
 			<Description>4x4x1 HightTech Armor</Description>
@@ -1288,7 +1288,7 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>5x1x1HightTechArmor</SubtypeId>
+				<SubtypeId>5x1x1HighTechArmor</SubtypeId>
 			</Id>
 			<DisplayName>5x1x1 HightTech Armor</DisplayName>
 			<Description>5x1x1 HightTech Armor</Description>
@@ -1319,7 +1319,7 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>5x5x1HightTechArmor</SubtypeId>
+				<SubtypeId>5x5x1HighTechArmor</SubtypeId>
 			</Id>
 			<DisplayName>5x5x1 HightTech Armor</DisplayName>
 			<Description>5x5x1 HightTech Armor</Description>
@@ -1354,7 +1354,7 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>6x1x1HightTechArmor</SubtypeId>
+				<SubtypeId>6x1x1HighTechArmor</SubtypeId>
 			</Id>
 			<DisplayName>6x1x1 HightTech Armor</DisplayName>
 			<Description>6x1x1 HightTech Armor</Description>
@@ -1385,7 +1385,7 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>6x6x1HightTechArmor</SubtypeId>
+				<SubtypeId>6x6x1HighTechArmor</SubtypeId>
 			</Id>
 			<DisplayName>6x6x1 HightTech Armor</DisplayName>
 			<Description>6x6x1 HightTech Armor</Description>
@@ -1419,7 +1419,7 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>3x1x1HightTechArmorSmall</SubtypeId>
+				<SubtypeId>3x1x1HighTechArmorSmall</SubtypeId>
 			</Id>
 			<DisplayName>3x1x1 HightTech Armor</DisplayName>
 			<Description>3x1x1 HightTech Armor</Description>
@@ -1452,7 +1452,7 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>3x3x1HightTechArmorSmall</SubtypeId>
+				<SubtypeId>3x3x1HighTechArmorSmall</SubtypeId>
 			</Id>
 			<DisplayName>3x3x1 HightTech Armor</DisplayName>
 			<Description>3x3x1 HightTech Armor</Description>
@@ -1489,7 +1489,7 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>4x1x1HightTechArmorSmall</SubtypeId>
+				<SubtypeId>4x1x1HighTechArmorSmall</SubtypeId>
 			</Id>
 			<DisplayName>4x1x1 HightTech Armor</DisplayName>
 			<Description>4x1x1 HightTech Armor</Description>
@@ -1521,7 +1521,7 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>4x4x1HightTechArmorSmall</SubtypeId>
+				<SubtypeId>4x4x1HighTechArmorSmall</SubtypeId>
 			</Id>
 			<DisplayName>4x4x1 HightTech Armor</DisplayName>
 			<Description>4x4x1 HightTech Armor</Description>
@@ -1557,7 +1557,7 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>5x1x1HightTechArmorSmall</SubtypeId>
+				<SubtypeId>5x1x1HighTechArmorSmall</SubtypeId>
 			</Id>
 			<DisplayName>5x1x1 HightTech Armor</DisplayName>
 			<Description>5x1x1 HightTech Armor</Description>
@@ -1590,7 +1590,7 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>5x5x1HightTechArmorSmall</SubtypeId>
+				<SubtypeId>5x5x1HighTechArmorSmall</SubtypeId>
 			</Id>
 			<DisplayName>5x5x1 HightTech Armor</DisplayName>
 			<Description>5x5x1 HightTech Armor</Description>
@@ -1626,7 +1626,7 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>6x1x1HightTechArmorSmall</SubtypeId>
+				<SubtypeId>6x1x1HighTechArmorSmall</SubtypeId>
 			</Id>
 			<DisplayName>6x1x1 HightTech Armor</DisplayName>
 			<Description>6x1x1 HightTech Armor</Description>
@@ -1658,7 +1658,7 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>6x6x1HightTechArmorSmall</SubtypeId>
+				<SubtypeId>6x6x1HighTechArmorSmall</SubtypeId>
 			</Id>
 			<DisplayName>6x6x1 HightTech Armor</DisplayName>
 			<Description>6x6x1 HightTech Armor</Description>
