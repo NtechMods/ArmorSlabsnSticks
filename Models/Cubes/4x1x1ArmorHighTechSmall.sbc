@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>4x1x1ArmorHighTechSmall</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_4x1x1ArmorHighTechSmall</DisplayName>
+			<Description>Description_4x1x1ArmorHighTechSmall</Description>
+			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="4"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\4x1x1ArmorHighTechSmall.mwm</Model>
+			<Components>
+				<Component Count="10" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1" EndY="1"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="4" EndY="1"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="4" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1" EndY="4"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1" EndY="4"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\4x1x1ArmorHighTechSmall_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>4x1x1ArmorHighTechSmall</BlockPairName>
+		</Definition>
+	</CubeBlocks>
+</Definitions>
