@@ -87,39 +87,40 @@
 		
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HighTechArmorBeamGroup" />
-            <Icon>Textures\Icons\311ArmorStick.dds</Icon>
+            <Icon>Textures\Icons\311HighTechArmor.dds</Icon>
             <DisplayName>DisplayName_Block_HighTechArmorBeams</DisplayName>
             <Description>Armor beam block.</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HighTechArmor" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1HighTechArmor" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1HighTechArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1LightArmor" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1HighTechArmor" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HighTechArmor" />
 				
 				
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HighTechArmorSmall" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1HighTechArmorSmall" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1HighTechArmorSmall" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1HighTechArmorSmall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HighTechArmorSmall" />
 				
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HighTechArmorSlabGroup" />
-            <Icon>Textures\Icons\311ArmorStick.dds</Icon>
+            <Icon>Textures\Icons\331HighTechArmor.dds</Icon>
             <DisplayName>DisplayName_Block_HighTechArmorSlabs</DisplayName>
             <Description>Armor Slab block.</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1HighTechArmor" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1HighTechArmor" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1HighTechArmor" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1HighTechArmor" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1HighTechArmor" />
 				
 				
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1HighTechArmorSmall" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1HighTechArmorSmall" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1HighTechArmorSmall" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1HighTechArmorSmall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1HighTechArmorSmall" />
 				
             </Blocks>
         </BlockVariantGroup>
@@ -1125,7 +1126,7 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\6x6x1LightArmorSmall.mwm</Model>
 			<Components>
-				<Component Count="33" Subtype="SteelPlate"/>
+				<Component Count="30" Subtype="SteelPlate"/>
 				<Component Count="3" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
@@ -1158,16 +1159,16 @@
 			</Id>
 			<DisplayName>3x1x1 HightTech Armor</DisplayName>
 			<Description>3x1x1 HightTech Armor</Description>
-			<Icon>Textures\Icons\311ArmorStick.dds</Icon>
+			<Icon>Textures\Icons\311HighTechArmor.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x1x1ArmorHighTech.mwm</Model>
 			<Components>
-				<Component Count="72" Subtype="SteelPlate"/>
-				<Component Count="18" Subtype="MetalGrid"/>
-				<Component Count="3" Subtype="SteelPlate"/>
+				<Component Count="50" Subtype="SteelPlate"/>
+				<Component Count="37" Subtype="BulletproofGlass"/>
+				<Component Count="25" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -1181,7 +1182,7 @@
 				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 			</MountPoints>
-			<BlockPairName>3x1x1HightTechArmor</BlockPairName>
+			<BlockPairName>3x1x1HighTechArmor</BlockPairName>
 		</Definition>
 
 		<Definition>
@@ -1191,14 +1192,16 @@
 			</Id>
 			<DisplayName>3x3x1 HightTech Armor</DisplayName>
 			<Description>3x3x1 HightTech Armor</Description>
-			<Icon>Textures\Icons\331ArmorSlab.dds</Icon>
+			<Icon>Textures\Icons\331HighTechArmor.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="3" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x3x1ArmorHighTech.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Count="175" Subtype="SteelPlate"/>
+				<Component Count="112" Subtype="BulletproofGlass"/>
+				<Component Count="50" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -1212,7 +1215,7 @@
 				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 			</MountPoints>
-			<BlockPairName>3x3x1HightTechArmor</BlockPairName>
+			<BlockPairName>3x3x1HighTechArmor</BlockPairName>
 		</Definition>
 
 		
@@ -1233,7 +1236,9 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\4x1x1ArmorHighTech.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Count="75" Subtype="SteelPlate"/>
+				<Component Count="50" Subtype="BulletproofGlass"/>
+				<Component Count="15" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -1247,7 +1252,7 @@
 				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
 			</MountPoints>
-			<BlockPairName>4x1x1HightTechArmor</BlockPairName>
+			<BlockPairName>4x1x1HighTechArmor</BlockPairName>
 		</Definition>
 
 		<Definition>
@@ -1264,7 +1269,9 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\4x4x1ArmorHighTech.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Count="350" Subtype="SteelPlate"/>
+				<Component Count="200" Subtype="BulletproofGlass"/>
+				<Component Count="50" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -1299,7 +1306,9 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\5x1x1ArmorHighTech.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Count="100" Subtype="SteelPlate"/>
+				<Component Count="62" Subtype="BulletproofGlass"/>
+				<Component Count="25" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -1313,7 +1322,7 @@
 				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 			</MountPoints>
-			<BlockPairName>5x1x1HightTechArmor</BlockPairName>
+			<BlockPairName>5x1x1HighTechArmor</BlockPairName>
 		</Definition>
 
 		<Definition>
@@ -1330,7 +1339,9 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\5x5x1ArmorHighTech.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Count="525" Subtype="SteelPlate"/>
+				<Component Count="25" Subtype="BulletproofGlass"/>
+				<Component Count="100" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -1344,7 +1355,7 @@
 				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 			</MountPoints>
-			<BlockPairName>5x5x1HightTechArmor</BlockPairName>
+			<BlockPairName>5x5x1HighTechArmor</BlockPairName>
 		</Definition>
 
 		
@@ -1365,7 +1376,9 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\6x1x1ArmorHighTech.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Count="125" Subtype="SteelPlate"/>
+				<Component Count="75" Subtype="BulletproofGlass"/>
+				<Component Count="25" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -1396,7 +1409,9 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\6x6x1ArmorHighTech.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Count="550" Subtype="SteelPlate"/>
+				<Component Count="450" Subtype="BulletproofGlass"/>
+				<Component Count="200" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -1423,15 +1438,15 @@
 			</Id>
 			<DisplayName>3x1x1 HightTech Armor</DisplayName>
 			<Description>3x1x1 HightTech Armor</Description>
-			<Icon>Textures\Icons\311ArmorStick.dds</Icon>
+			<Icon>Textures\Icons\311HighTechArmor.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x1x1ArmorHighTechSmall.mwm</Model>
 			<Components>
-				<Component Count="3" Subtype="SteelPlate"/>
 				<Component Count="2" Subtype="SteelPlate"/>
+				<Component Count="2" Subtype="BulletproofGlass"/>
 				<Component Count="1" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
@@ -1456,16 +1471,16 @@
 			</Id>
 			<DisplayName>3x3x1 HightTech Armor</DisplayName>
 			<Description>3x3x1 HightTech Armor</Description>
-			<Icon>Textures\Icons\331ArmorSlab.dds</Icon>
+			<Icon>Textures\Icons\331HighTechArmor.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="3" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x3x1ArmorHighTechSmall.mwm</Model>
 			<Components>
-				<Component Count="3" Subtype="SteelPlate"/>
-				<Component Count="6" Subtype="SteelPlate"/>
-				<Component Count="3" Subtype="SteelPlate"/>
+				<Component Count="7" Subtype="SteelPlate"/>
+				<Component Count="5" Subtype="BulletproofGlass"/>
+				<Component Count="2" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -1500,8 +1515,9 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\4x1x1ArmorHighTechSmall.mwm</Model>
 			<Components>
-				<Component Count="4" Subtype="SteelPlate"/>
 				<Component Count="3" Subtype="SteelPlate"/>
+				<Component Count="2" Subtype="BulletproofGlass"/>
+				<Component Count="1" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -1533,7 +1549,8 @@
 			<Model>Models\Cubes\4x4x1ArmorHighTechSmall.mwm</Model>
 			<Components>
 				<Component Count="10" Subtype="SteelPlate"/>
-				<Component Count="3" Subtype="SteelPlate"/>
+				<Component Count="8" Subtype="BulletproofGlass"/>
+				<Component Count="6" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -1569,7 +1586,7 @@
 			<Model>Models\Cubes\5x1x1ArmorHighTechSmall.mwm</Model>
 			<Components>
 				<Component Count="3" Subtype="SteelPlate"/>
-				<Component Count="3" Subtype="SteelPlate"/>
+				<Component Count="3" Subtype="BulletproofGlass"/>
 				<Component Count="2" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
@@ -1601,8 +1618,9 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\5x5x1ArmorHighTechSmall.mwm</Model>
 			<Components>
-				<Component Count="30" Subtype="SteelPlate"/>
-				<Component Count="1" Subtype="SteelPlate"/>
+				<Component Count="20" Subtype="SteelPlate"/>
+				<Component Count="12" Subtype="BulletproofGlass"/>
+				<Component Count="5" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -1637,8 +1655,9 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\6x1x1ArmorHighTechSmall.mwm</Model>
 			<Components>
-				<Component Count="9" Subtype="SteelPlate"/>
-				<Component Count="1" Subtype="SteelPlate"/>
+				<Component Count="4" Subtype="SteelPlate"/>
+				<Component Count="3" Subtype="BulletproofGlass"/>
+				<Component Count="2" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -1669,8 +1688,9 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\6x6x1ArmorHighTechSmall.mwm</Model>
 			<Components>
-				<Component Count="36" Subtype="SteelPlate"/>
-				<Component Count="8" Subtype="SteelPlate"/>
+				<Component Count="30" Subtype="SteelPlate"/>
+				<Component Count="18" Subtype="BulletproofGlass"/>
+				<Component Count="6" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
