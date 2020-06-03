@@ -1,139 +1,138 @@
 <?xml version="1.0" ?>
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-<!--Block Groups -->
+	<!--Block Groups -->
 
- <BlockVariantGroups>
+	<BlockVariantGroups>
 
-        <!-- Reactors -->
+		<!-- Reactors -->
 
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeavyArmorSlabGroup" />
-            <Icon>Textures\Icons\311ArmorStick.dds</Icon>
-            <DisplayName>DisplayName_Block_ArmorSlabs</DisplayName>
-            <Description>Armor Slab block.</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1HeavyArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1HeavyArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1HeavyArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1HeavyArmor" />
-				
-				
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1HeavyArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1HeavyArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1HeavyArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1HeavyArmorSmall" />
-				
-            </Blocks>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightArmorSlabGroup" />
-            <Icon>Textures\Icons\311ArmorStick.dds</Icon>
-            <DisplayName>DisplayName_Block_ArmorSlabs</DisplayName>
-            <Description>Armor Slab block.</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1LightArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1LightArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1LightArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1LightArmor" />
-				
-				
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1LightArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1LightArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1LightArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1LightArmorSmall" />
-				
-            </Blocks>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeavyArmorBeamGroup" />
-            <Icon>Textures\Icons\311ArmorStick.dds</Icon>
-            <DisplayName>DisplayName_Block_ArmorBeams</DisplayName>
-            <Description>Armor Beam block.</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HeavyArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1HeavyArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1HeavyArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1HeavyArmor" />
-				
-				
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HeavyArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1HeavyArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1HeavyArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1HeavyArmorSmall" />
-				
-            </Blocks>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightArmorBeamGroup" />
-            <Icon>Textures\Icons\311ArmorStick.dds</Icon>
-            <DisplayName>DisplayName_Block_ArmorSlabs</DisplayName>
-            <Description>Armor beam block.</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1LightArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1LightArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1LightArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1LightArmor" />
-				
-				
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1LightArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1LightArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1LightArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1LightArmorSmall" />
-				
-            </Blocks>
-        </BlockVariantGroup>
-		
-		
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HighTechArmorBeamGroup" />
-            <Icon>Textures\Icons\311HighTechArmor.dds</Icon>
-            <DisplayName>DisplayName_Block_HighTechArmorBeams</DisplayName>
-            <Description>Armor beam block.</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1HighTechArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1HighTechArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1HighTechArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HighTechArmor" />
-				
-				
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HighTechArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1HighTechArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1HighTechArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1HighTechArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HighTechArmorSmall" />
-				
-            </Blocks>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HighTechArmorSlabGroup" />
-            <Icon>Textures\Icons\331HighTechArmor.dds</Icon>
-            <DisplayName>DisplayName_Block_HighTechArmorSlabs</DisplayName>
-            <Description>Armor Slab block.</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1HighTechArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1HighTechArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1HighTechArmor" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1HighTechArmor" />
-				
-				
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1HighTechArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1HighTechArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1HighTechArmorSmall" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1HighTechArmorSmall" />
-				
-            </Blocks>
-        </BlockVariantGroup>
-        
-  </BlockVariantGroups>
- 
+		<BlockVariantGroup>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeavyArmorSlabGroup" />
+			<Icon>Textures\Icons\311ArmorStick.dds</Icon>
+			<DisplayName>DisplayName_Block_ArmorSlabs</DisplayName>
+			<Description>Armor Slab block.</Description>
+			<Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1HeavyArmor" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1HeavyArmor" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1HeavyArmor" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1HeavyArmor" />
+
+
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1HeavyArmorSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1HeavyArmorSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1HeavyArmorSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1HeavyArmorSmall" />
+
+			</Blocks>
+		</BlockVariantGroup>
+		<BlockVariantGroup>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightArmorSlabGroup" />
+			<Icon>Textures\Icons\311ArmorStick.dds</Icon>
+			<DisplayName>DisplayName_Block_ArmorSlabs</DisplayName>
+			<Description>Armor Slab block.</Description>
+			<Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1LightArmor" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1LightArmor" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1LightArmor" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1LightArmor" />
+
+
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1LightArmorSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1LightArmorSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1LightArmorSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1LightArmorSmall" />
+
+			</Blocks>
+		</BlockVariantGroup>
+		<BlockVariantGroup>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeavyArmorBeamGroup" />
+			<Icon>Textures\Icons\311ArmorStick.dds</Icon>
+			<DisplayName>DisplayName_Block_ArmorBeams</DisplayName>
+			<Description>Armor Beam block.</Description>
+			<Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HeavyArmor" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1HeavyArmor" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1HeavyArmor" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1HeavyArmor" />
+
+
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HeavyArmorSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1HeavyArmorSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1HeavyArmorSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1HeavyArmorSmall" />
+
+			</Blocks>
+		</BlockVariantGroup>
+		<BlockVariantGroup>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightArmorBeamGroup" />
+			<Icon>Textures\Icons\311ArmorStick.dds</Icon>
+			<DisplayName>DisplayName_Block_ArmorSlabs</DisplayName>
+			<Description>Armor beam block.</Description>
+			<Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1LightArmor" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1LightArmor" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1LightArmor" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1LightArmor" />
+
+
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1LightArmorSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1LightArmorSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1LightArmorSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1LightArmorSmall" />
+
+			</Blocks>
+		</BlockVariantGroup>
+
+
+		<BlockVariantGroup>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HighTechArmorBeamGroup" />
+			<Icon>Textures\Icons\311HighTechArmor.dds</Icon>
+			<DisplayName>DisplayName_Block_HighTechArmorBeams</DisplayName>
+			<Description>Armor beam block.</Description>
+			<Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HighTechArmor" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1HighTechArmor" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1HighTechArmor" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1HighTechArmor" />
+
+
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HighTechArmorSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1HighTechArmorSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="5x1x1HighTechArmorSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="6x1x1HighTechArmorSmall" />
+
+			</Blocks>
+		</BlockVariantGroup>
+		<BlockVariantGroup>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HighTechArmorSlabGroup" />
+			<Icon>Textures\Icons\331HighTechArmor.dds</Icon>
+			<DisplayName>DisplayName_Block_HighTechArmorSlabs</DisplayName>
+			<Description>Armor Slab block.</Description>
+			<Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1HighTechArmor" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1HighTechArmor" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1HighTechArmor" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1HighTechArmor" />
+
+
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1HighTechArmorSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1HighTechArmorSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="5x5x1HighTechArmorSmall" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="6x6x1HighTechArmorSmall" />
+
+			</Blocks>
+		</BlockVariantGroup>
+
+	</BlockVariantGroups>
+
 
 
 
 
 	<CubeBlocks>
 
-<!-- Large Blocks -->
+		<!-- Large Blocks -->
 
 		<Definition>
 			<Id>
@@ -149,11 +148,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x1x1HeavyArmor.mwm</Model>
 			<Components>
-				<Component Count="72" Subtype="SteelPlate"/>
-				<Component Count="18" Subtype="MetalGrid"/>
-				<Component Count="3" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="405" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="SteelPlate" Count="45" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Index="0" Subtype="MetalGrid"/>
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\3x1x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -175,15 +174,16 @@
 			<DisplayName>3x1x1 Light Armor</DisplayName>
 			<Description>3x1x1 Light Armor</Description>
 			<Icon>Textures\Icons\311ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x1x1LightArmor.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Count="50" Subtype="SteelPlate"/>
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Index="25" Subtype="SteelPlate"/>
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\3x1x1LightArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -211,9 +211,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x3x1HeavyArmor.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="405" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="SteelPlate" Count="45" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Index="0" Subtype="MetalGrid"/>
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\3x3x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -235,13 +237,15 @@
 			<DisplayName>3x3x1 Light Armor</DisplayName>
 			<Description>3x3x1 Light Armor</Description>
 			<Icon>Textures\Icons\331ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="3" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x3x1LightArmor.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="200" />
+				<Component Subtype="SteelPlate" Count="25" />
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -257,8 +261,8 @@
 			</MountPoints>
 			<BlockPairName>3x3x1LightArmor</BlockPairName>
 		</Definition>
-		
-<!-- 4 block width -->
+
+		<!-- 4 block width -->
 
 
 		<Definition>
@@ -269,13 +273,16 @@
 			<DisplayName>4x1x1 Heavy Armor</DisplayName>
 			<Description>4x1x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\411ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="4"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\4x1x1HeavyArmor.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="405" /> <!-- 135 -->
+				<Component Subtype="MetalGrid" Count="50" /> <!-- 50 -->
+				<Component Subtype="SteelPlate" Count="45" /> <!-- 15 -->
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -299,6 +306,7 @@
 			<DisplayName>4x1x1 Light Armor</DisplayName>
 			<Description>4x1x1 Light Armor</Description>
 			<Icon>Textures\Icons\411ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="4"/>
@@ -329,6 +337,7 @@
 			<DisplayName>4x4x1 Heavy Armor</DisplayName>
 			<Description>4x4x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\441ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="4" z="4"/>
@@ -359,6 +368,7 @@
 			<DisplayName>4x4x1 Light Armor</DisplayName>
 			<Description>4x4x1 Light Armor</Description>
 			<Icon>Textures\Icons\441ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="4" z="4"/>
@@ -381,8 +391,8 @@
 			</MountPoints>
 			<BlockPairName>4x4x1LightArmor</BlockPairName>
 		</Definition>
-		
-<!-- 5 block width -->
+
+		<!-- 5 block width -->
 
 
 		<Definition>
@@ -393,6 +403,7 @@
 			<DisplayName>5x1x1 Heavy Armor</DisplayName>
 			<Description>5x1x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\511ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="5"/>
@@ -423,6 +434,7 @@
 			<DisplayName>5x1x1 Light Armor</DisplayName>
 			<Description>5x1x1 Light Armor</Description>
 			<Icon>Textures\Icons\511ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="5"/>
@@ -453,6 +465,7 @@
 			<DisplayName>5x5x1 Heavy Armor</DisplayName>
 			<Description>5x5x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\551ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="5" z="5"/>
@@ -483,6 +496,7 @@
 			<DisplayName>5x5x1 Light Armor</DisplayName>
 			<Description>5x5x1 Light Armor</Description>
 			<Icon>Textures\Icons\551ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="5" z="5"/>
@@ -505,9 +519,9 @@
 			</MountPoints>
 			<BlockPairName>5x5x1LightArmor</BlockPairName>
 		</Definition>
-		
-		
-<!-- 6 block width -->
+
+
+		<!-- 6 block width -->
 
 		<Definition>
 			<Id>
@@ -517,6 +531,7 @@
 			<DisplayName>6x1x1 Heavy Armor</DisplayName>
 			<Description>6x1x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\611ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="6"/>
@@ -547,6 +562,7 @@
 			<DisplayName>6x1x1 Light Armor</DisplayName>
 			<Description>6x1x1 Light Armor</Description>
 			<Icon>Textures\Icons\611ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="6"/>
@@ -577,6 +593,7 @@
 			<DisplayName>6x6x1 Heavy Armor</DisplayName>
 			<Description>6x6x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\661ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="6" z="6"/>
@@ -607,6 +624,7 @@
 			<DisplayName>6x6x1 Light Armor</DisplayName>
 			<Description>6x6x1 Light Armor</Description>
 			<Icon>Textures\Icons\661ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="6" z="6"/>
@@ -630,7 +648,7 @@
 			<BlockPairName>6x6x1LightArmor</BlockPairName>
 		</Definition>
 
-<!-- Small Blocks -->
+		<!-- Small Blocks -->
 
 		<Definition>
 			<Id>
@@ -640,6 +658,7 @@
 			<DisplayName>3x1x1 Heavy Armor</DisplayName>
 			<Description>3x1x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\311ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="3"/>
@@ -703,6 +722,7 @@
 			<DisplayName>3x3x1 Heavy Armor</DisplayName>
 			<Description>3x3x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\331ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="3" z="3"/>
@@ -758,8 +778,8 @@
 			</MountPoints>
 			<BlockPairName>3x3x1LightArmor</BlockPairName>
 		</Definition>
-		
-<!-- 4 block width -->
+
+		<!-- 4 block width -->
 
 
 		<Definition>
@@ -770,6 +790,7 @@
 			<DisplayName>4x1x1 Heavy Armor</DisplayName>
 			<Description>4x1x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\411ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="4"/>
@@ -801,6 +822,7 @@
 			<DisplayName>4x1x1 Light Armor</DisplayName>
 			<Description>4x1x1 Light Armor</Description>
 			<Icon>Textures\Icons\411ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="4"/>
@@ -832,6 +854,7 @@
 			<DisplayName>4x4x1 Heavy Armor</DisplayName>
 			<Description>4x4x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\441ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="4" z="4"/>
@@ -863,6 +886,7 @@
 			<DisplayName>4x4x1 Light Armor</DisplayName>
 			<Description>4x4x1 Light Armor</Description>
 			<Icon>Textures\Icons\441ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="4" z="4"/>
@@ -886,8 +910,8 @@
 			</MountPoints>
 			<BlockPairName>4x4x1LightArmor</BlockPairName>
 		</Definition>
-		
-<!-- 5 block width -->
+
+		<!-- 5 block width -->
 
 
 		<Definition>
@@ -898,6 +922,7 @@
 			<DisplayName>5x1x1 Heavy Armor</DisplayName>
 			<Description>5x1x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\511ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="5"/>
@@ -930,6 +955,7 @@
 			<DisplayName>5x1x1 Light Armor</DisplayName>
 			<Description>5x1x1 Light Armor</Description>
 			<Icon>Textures\Icons\511ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="5"/>
@@ -961,6 +987,7 @@
 			<DisplayName>5x5x1 Heavy Armor</DisplayName>
 			<Description>5x5x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\551ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="5" z="5"/>
@@ -992,6 +1019,7 @@
 			<DisplayName>5x5x1 Light Armor</DisplayName>
 			<Description>5x5x1 Light Armor</Description>
 			<Icon>Textures\Icons\551ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="5" z="5"/>
@@ -1015,9 +1043,9 @@
 			</MountPoints>
 			<BlockPairName>5x5x1LightArmor</BlockPairName>
 		</Definition>
-		
-		
-<!-- 6 block width -->
+
+
+		<!-- 6 block width -->
 
 		<Definition>
 			<Id>
@@ -1027,6 +1055,7 @@
 			<DisplayName>6x1x1 Heavy Armor</DisplayName>
 			<Description>6x1x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\611ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="6"/>
@@ -1058,6 +1087,7 @@
 			<DisplayName>6x1x1 Light Armor</DisplayName>
 			<Description>6x1x1 Light Armor</Description>
 			<Icon>Textures\Icons\611ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="6"/>
@@ -1089,6 +1119,7 @@
 			<DisplayName>6x6x1 Heavy Armor</DisplayName>
 			<Description>6x6x1 Heavy Armor</Description>
 			<Icon>Textures\Icons\661ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="6" z="6"/>
@@ -1120,6 +1151,7 @@
 			<DisplayName>6x6x1 Light Armor</DisplayName>
 			<Description>6x6x1 Light Armor</Description>
 			<Icon>Textures\Icons\661ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="6" z="6"/>
@@ -1147,7 +1179,7 @@
 
 
 
-<!-- High Tech Armor -->
+		<!-- High Tech Armor -->
 
 
 
@@ -1218,8 +1250,8 @@
 			<BlockPairName>3x3x1HighTechArmor</BlockPairName>
 		</Definition>
 
-		
-<!-- 4 block width -->
+
+		<!-- 4 block width -->
 
 
 		<Definition>
@@ -1230,6 +1262,7 @@
 			<DisplayName>4x1x1 HightTech Armor</DisplayName>
 			<Description>4x1x1 HightTech Armor</Description>
 			<Icon>Textures\Icons\411ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="4"/>
@@ -1263,6 +1296,7 @@
 			<DisplayName>4x4x1 HightTech Armor</DisplayName>
 			<Description>4x4x1 HightTech Armor</Description>
 			<Icon>Textures\Icons\441ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="4" z="4"/>
@@ -1288,8 +1322,8 @@
 			<BlockPairName>4x4x1HighTechArmor</BlockPairName>
 		</Definition>
 
-		
-<!-- 5 block width -->
+
+		<!-- 5 block width -->
 
 
 		<Definition>
@@ -1300,6 +1334,7 @@
 			<DisplayName>5x1x1 HightTech Armor</DisplayName>
 			<Description>5x1x1 HightTech Armor</Description>
 			<Icon>Textures\Icons\511ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="5"/>
@@ -1333,6 +1368,7 @@
 			<DisplayName>5x5x1 HightTech Armor</DisplayName>
 			<Description>5x5x1 HightTech Armor</Description>
 			<Icon>Textures\Icons\551ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="5" z="5"/>
@@ -1358,9 +1394,9 @@
 			<BlockPairName>5x5x1HighTechArmor</BlockPairName>
 		</Definition>
 
-		
-		
-<!-- 6 block width -->
+
+
+		<!-- 6 block width -->
 
 		<Definition>
 			<Id>
@@ -1370,6 +1406,7 @@
 			<DisplayName>6x1x1 HightTech Armor</DisplayName>
 			<Description>6x1x1 HightTech Armor</Description>
 			<Icon>Textures\Icons\611ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="6"/>
@@ -1392,7 +1429,7 @@
 				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 			</MountPoints>
-			<BlockPairName>6x1x1HightTechArmor</BlockPairName>
+			<BlockPairName>6x1x1HighTechArmor</BlockPairName>
 		</Definition>
 
 		<Definition>
@@ -1403,6 +1440,7 @@
 			<DisplayName>6x6x1 HightTech Armor</DisplayName>
 			<Description>6x6x1 HightTech Armor</Description>
 			<Icon>Textures\Icons\661ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="6" z="6"/>
@@ -1425,11 +1463,11 @@
 				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 			</MountPoints>
-			<BlockPairName>6x6x1HightTechArmor</BlockPairName>
+			<BlockPairName>6x6x1HighTechArmor</BlockPairName>
 		</Definition>
 
 
-<!-- Small Blocks -->
+		<!-- Small Blocks -->
 
 		<Definition>
 			<Id>
@@ -1439,6 +1477,7 @@
 			<DisplayName>3x1x1 HightTech Armor</DisplayName>
 			<Description>3x1x1 HightTech Armor</Description>
 			<Icon>Textures\Icons\311HighTechArmor.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="3"/>
@@ -1461,7 +1500,7 @@
 				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 			</MountPoints>
-			<BlockPairName>3x1x1HightTechArmor</BlockPairName>
+			<BlockPairName>3x1x1HighTechArmor</BlockPairName>
 		</Definition>
 
 		<Definition>
@@ -1472,6 +1511,7 @@
 			<DisplayName>3x3x1 HightTech Armor</DisplayName>
 			<Description>3x3x1 HightTech Armor</Description>
 			<Icon>Textures\Icons\331HighTechArmor.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="3" z="3"/>
@@ -1494,11 +1534,11 @@
 				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 			</MountPoints>
-			<BlockPairName>3x3x1HightTechArmor</BlockPairName>
+			<BlockPairName>3x3x1HighTechArmor</BlockPairName>
 		</Definition>
 
-		
-<!-- 4 block width -->
+
+		<!-- 4 block width -->
 
 
 		<Definition>
@@ -1509,6 +1549,7 @@
 			<DisplayName>4x1x1 HightTech Armor</DisplayName>
 			<Description>4x1x1 HightTech Armor</Description>
 			<Icon>Textures\Icons\411ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="4"/>
@@ -1531,7 +1572,7 @@
 				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
 			</MountPoints>
-			<BlockPairName>4x1x1HightTechArmor</BlockPairName>
+			<BlockPairName>4x1x1HighTechArmor</BlockPairName>
 		</Definition>
 
 		<Definition>
@@ -1542,6 +1583,7 @@
 			<DisplayName>4x4x1 HightTech Armor</DisplayName>
 			<Description>4x4x1 HightTech Armor</Description>
 			<Icon>Textures\Icons\441ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="4" z="4"/>
@@ -1564,11 +1606,11 @@
 				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
 			</MountPoints>
-			<BlockPairName>4x4x1HightTechArmor</BlockPairName>
+			<BlockPairName>4x4x1HighTechArmor</BlockPairName>
 		</Definition>
 
-		
-<!-- 5 block width -->
+
+		<!-- 5 block width -->
 
 
 		<Definition>
@@ -1579,6 +1621,7 @@
 			<DisplayName>5x1x1 HightTech Armor</DisplayName>
 			<Description>5x1x1 HightTech Armor</Description>
 			<Icon>Textures\Icons\511ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="5"/>
@@ -1601,7 +1644,7 @@
 				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 			</MountPoints>
-			<BlockPairName>5x1x1HightTechArmor</BlockPairName>
+			<BlockPairName>5x1x1HighTechArmor</BlockPairName>
 		</Definition>
 
 		<Definition>
@@ -1612,6 +1655,7 @@
 			<DisplayName>5x5x1 HightTech Armor</DisplayName>
 			<Description>5x5x1 HightTech Armor</Description>
 			<Icon>Textures\Icons\551ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="5" z="5"/>
@@ -1634,12 +1678,12 @@
 				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 			</MountPoints>
-			<BlockPairName>5x5x1HightTechArmor</BlockPairName>
+			<BlockPairName>5x5x1HighTechArmor</BlockPairName>
 		</Definition>
 
-		
-		
-<!-- 6 block width -->
+
+
+		<!-- 6 block width -->
 
 		<Definition>
 			<Id>
@@ -1649,6 +1693,7 @@
 			<DisplayName>6x1x1 HightTech Armor</DisplayName>
 			<Description>6x1x1 HightTech Armor</Description>
 			<Icon>Textures\Icons\611ArmorStick.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="6"/>
@@ -1671,7 +1716,7 @@
 				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 			</MountPoints>
-			<BlockPairName>6x1x1HightTechArmor</BlockPairName>
+			<BlockPairName>6x1x1HighTechArmor</BlockPairName>
 		</Definition>
 
 		<Definition>
@@ -1682,6 +1727,7 @@
 			<DisplayName>6x6x1 HightTech Armor</DisplayName>
 			<Description>6x6x1 HightTech Armor</Description>
 			<Icon>Textures\Icons\661ArmorSlab.dds</Icon>
+			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="6" z="6"/>
@@ -1704,7 +1750,7 @@
 				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 			</MountPoints>
-			<BlockPairName>6x6x1HightTechArmor</BlockPairName>
+			<BlockPairName>6x6x1HighTechArmor</BlockPairName>
 		</Definition>
 
 
