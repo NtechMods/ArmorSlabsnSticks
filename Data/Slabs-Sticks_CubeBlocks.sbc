@@ -10,8 +10,8 @@
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeavyArmorSlabGroup" />
 			<Icon>Textures\Icons\311ArmorStick.dds</Icon>
-			<DisplayName>DisplayName_Block_ArmorSlabs</DisplayName>
-			<Description>Armor Slab block.</Description>
+			<DisplayName>Heavy Armor Slab block</DisplayName>
+			<Description>Heavy Armor Slab blocks.</Description>
 			<Blocks>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1HeavyArmor" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1HeavyArmor" />
@@ -29,8 +29,8 @@
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightArmorSlabGroup" />
 			<Icon>Textures\Icons\311ArmorStick.dds</Icon>
-			<DisplayName>DisplayName_Block_ArmorSlabs</DisplayName>
-			<Description>Armor Slab block.</Description>
+			<DisplayName>Armor Slab block</DisplayName>
+			<Description>Armor Slab blocks.</Description>
 			<Blocks>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1LightArmor" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1LightArmor" />
@@ -48,8 +48,8 @@
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeavyArmorBeamGroup" />
 			<Icon>Textures\Icons\311ArmorStick.dds</Icon>
-			<DisplayName>DisplayName_Block_ArmorBeams</DisplayName>
-			<Description>Armor Beam block.</Description>
+			<DisplayName>Heavy Armor Beam block</DisplayName>
+			<Description>Heavy Armor Beam blocks.</Description>
 			<Blocks>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HeavyArmor" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1HeavyArmor" />
@@ -67,8 +67,8 @@
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightArmorBeamGroup" />
 			<Icon>Textures\Icons\311ArmorStick.dds</Icon>
-			<DisplayName>DisplayName_Block_ArmorSlabs</DisplayName>
-			<Description>Armor beam block.</Description>
+			<DisplayName>Armor beam block</DisplayName>
+			<Description>Armor beam blocks.</Description>
 			<Blocks>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1LightArmor" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1LightArmor" />
@@ -88,8 +88,8 @@
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HighTechArmorBeamGroup" />
 			<Icon>Textures\Icons\311HighTechArmor.dds</Icon>
-			<DisplayName>DisplayName_Block_HighTechArmorBeams</DisplayName>
-			<Description>Armor beam block.</Description>
+			<DisplayName>HighTech Armor beam block</DisplayName>
+			<Description>HighTech Armor beam blocks.</Description>
 			<Blocks>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="3x1x1HighTechArmor" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="4x1x1HighTechArmor" />
@@ -107,8 +107,8 @@
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HighTechArmorSlabGroup" />
 			<Icon>Textures\Icons\331HighTechArmor.dds</Icon>
-			<DisplayName>DisplayName_Block_HighTechArmorSlabs</DisplayName>
-			<Description>Armor Slab block.</Description>
+			<DisplayName>HighTech Armor Slab block</DisplayName>
+			<Description>HighTech Armor Slab blocks.</Description>
 			<Blocks>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="3x3x1HighTechArmor" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="4x4x1HighTechArmor" />
@@ -126,9 +126,190 @@
 
 	</BlockVariantGroups>
 
+	<CategoryClasses>
+	  <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+	  <Id>
+		<TypeId>GuiBlockCategoryDefinition</TypeId>
+		<SubtypeId/>
+	  </Id>
+	  <DisplayName>DisplayName_Category_ArmorBlocks</DisplayName>
+	  <Name>Armorblocks</Name>
+	    <ItemIds>
+		<string>CubeBlock/3x3x1HeavyArmor</string>
+		<string>CubeBlock/4x4x1HeavyArmor</string>
+		<string>CubeBlock/5x5x1HeavyArmor</string>
+		<string>CubeBlock/6x6x1HeavyArmor</string>
+
+		<string>CubeBlock/3x3x1LightArmor</string>
+		<string>CubeBlock/4x4x1LightArmor</string>
+		<string>CubeBlock/5x5x1LightArmor</string>
+		<string>CubeBlock/6x6x1LightArmor</string>
+
+		<string>CubeBlock/3x1x1HeavyArmor</string>
+		<string>CubeBlock/4x1x1HeavyArmor</string>
+		<string>CubeBlock/5x1x1HeavyArmor</string>
+		<string>CubeBlock/6x1x1HeavyArmor</string>
+
+		<string>CubeBlock/3x1x1LightArmor</string>
+		<string>CubeBlock/4x1x1LightArmor</string>
+		<string>CubeBlock/5x1x1LightArmor</string>
+		<string>CubeBlock/6x1x1LightArmor</string>
+
+		<string>CubeBlock/3x1x1HighTechArmor</string>
+		<string>CubeBlock/4x1x1HighTechArmor</string>
+		<string>CubeBlock/5x1x1HighTechArmor</string>
+		<string>CubeBlock/6x1x1HighTechArmor</string>
+
+		<string>CubeBlock/3x3x1HighTechArmor</string>
+		<string>CubeBlock/4x4x1HighTechArmor</string>
+		<string>CubeBlock/5x5x1HighTechArmor</string>
+		<string>CubeBlock/6x6x1HighTechArmor</string>
+	    </ItemIds>
+	  </Category>
+
+	  <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+	  <Id>
+		<TypeId>GuiBlockCategoryDefinition</TypeId>
+		<SubtypeId/>
+	  </Id>
+	  <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+	  <Name>LargeBlocks</Name>
+	    <ItemIds>
+		<string>CubeBlock/3x3x1HeavyArmor</string>
+		<string>CubeBlock/4x4x1HeavyArmor</string>
+		<string>CubeBlock/5x5x1HeavyArmor</string>
+		<string>CubeBlock/6x6x1HeavyArmor</string>
+
+		<string>CubeBlock/3x3x1LightArmor</string>
+		<string>CubeBlock/4x4x1LightArmor</string>
+		<string>CubeBlock/5x5x1LightArmor</string>
+		<string>CubeBlock/6x6x1LightArmor</string>
+
+		<string>CubeBlock/3x1x1HeavyArmor</string>
+		<string>CubeBlock/4x1x1HeavyArmor</string>
+		<string>CubeBlock/5x1x1HeavyArmor</string>
+		<string>CubeBlock/6x1x1HeavyArmor</string>
+
+		<string>CubeBlock/3x1x1LightArmor</string>
+		<string>CubeBlock/4x1x1LightArmor</string>
+		<string>CubeBlock/5x1x1LightArmor</string>
+		<string>CubeBlock/6x1x1LightArmor</string>
+
+		<string>CubeBlock/3x1x1HighTechArmor</string>
+		<string>CubeBlock/4x1x1HighTechArmor</string>
+		<string>CubeBlock/5x1x1HighTechArmor</string>
+		<string>CubeBlock/6x1x1HighTechArmor</string>
+
+		<string>CubeBlock/3x3x1HighTechArmor</string>
+		<string>CubeBlock/4x4x1HighTechArmor</string>
+		<string>CubeBlock/5x5x1HighTechArmor</string>
+		<string>CubeBlock/6x6x1HighTechArmor</string>
+	    </ItemIds>
+	  </Category>
+
+	  <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+	  <Id>
+		<TypeId>GuiBlockCategoryDefinition</TypeId>
+		<SubtypeId/>
+	  </Id>
+	  <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+	  <Name>SmallBlocks</Name>
+	    <ItemIds>
+		<string>CubeBlock/3x3x1HeavyArmorSmall</string>
+		<string>CubeBlock/4x4x1HeavyArmorSmall</string>
+		<string>CubeBlock/5x5x1HeavyArmorSmall</string>
+		<string>CubeBlock/6x6x1HeavyArmorSmall</string>
+
+		<string>CubeBlock/3x3x1LightArmorSmall</string>
+		<string>CubeBlock/4x4x1LightArmorSmall</string>
+		<string>CubeBlock/5x5x1LightArmorSmall</string>
+		<string>CubeBlock/6x6x1LightArmorSmall</string>
+
+		<string>CubeBlock/3x1x1HeavyArmorSmall</string>
+		<string>CubeBlock/4x1x1HeavyArmorSmall</string>
+		<string>CubeBlock/5x1x1HeavyArmorSmall</string>
+		<string>CubeBlock/6x1x1HeavyArmorSmall</string>
+
+		<string>CubeBlock/3x1x1LightArmorSmall</string>
+		<string>CubeBlock/4x1x1LightArmorSmall</string>
+		<string>CubeBlock/5x1x1LightArmorSmall</string>
+		<string>CubeBlock/6x1x1LightArmorSmall</string>
+
+		<string>CubeBlock/3x1x1HighTechArmorSmall</string>
+		<string>CubeBlock/4x1x1HighTechArmorSmall</string>
+		<string>CubeBlock/5x1x1HighTechArmorSmall</string>
+		<string>CubeBlock/6x1x1HighTechArmorSmall</string>
+
+		<string>CubeBlock/3x3x1HighTechArmorSmall</string>
+		<string>CubeBlock/4x4x1HighTechArmorSmall</string>
+		<string>CubeBlock/5x5x1HighTechArmorSmall</string>
+		<string>CubeBlock/6x6x1HighTechArmorSmall</string>
+	    </ItemIds>
+	  </Category>
+	</CategoryClasses>
+
+	<BlueprintClassEntries>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/3x3x1HeavyArmor" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/4x4x1HeavyArmor" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/5x5x1HeavyArmor" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/6x6x1HeavyArmor" />
+
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/3x3x1LightArmor" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/4x4x1LightArmor" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/5x5x1LightArmor" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/6x6x1LightArmor" />
+
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/3x1x1HeavyArmor" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/4x1x1HeavyArmor" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/5x1x1HeavyArmor" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/6x1x1HeavyArmor" />
+
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/3x1x1LightArmor" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/4x1x1LightArmor" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/5x1x1LightArmor" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/6x1x1LightArmor" />
+
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/3x1x1HighTechArmor" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/4x1x1HighTechArmor" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/5x1x1HighTechArmor" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/6x1x1HighTechArmor" />
+
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/3x3x1HighTechArmor" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/4x4x1HighTechArmor" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/5x5x1HighTechArmor" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/6x6x1HighTechArmor" />
 
 
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/3x3x1HeavyArmorSmall" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/4x4x1HeavyArmorSmall" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/5x5x1HeavyArmorSmall" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/6x6x1HeavyArmorSmall" />
 
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/3x3x1LightArmorSmall" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/4x4x1LightArmorSmall" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/5x5x1LightArmorSmall" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/6x6x1LightArmorSmall" />
+
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/3x1x1HeavyArmorSmall" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/4x1x1HeavyArmorSmall" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/5x1x1HeavyArmorSmall" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/6x1x1HeavyArmorSmall" />
+
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/3x1x1LightArmorSmall" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/4x1x1LightArmorSmall" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/5x1x1LightArmorSmall" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/6x1x1LightArmorSmall" />
+
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/3x1x1HighTechArmorSmall" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/4x1x1HighTechArmorSmall" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/5x1x1HighTechArmorSmall" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/6x1x1HighTechArmorSmall" />
+
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/3x3x1HighTechArmorSmall" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/4x4x1HighTechArmorSmall" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/5x5x1HighTechArmorSmall" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/6x6x1HighTechArmorSmall" />
+	</BlueprintClassEntries>
 
 	<CubeBlocks>
 
@@ -149,7 +330,7 @@
 			<Model>Models\Cubes\3x1x1HeavyArmor.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="405" />
-				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="MetalGrid" Count="150" />
 				<Component Subtype="SteelPlate" Count="45" />
 			</Components>
 			<CriticalComponent Index="0" Subtype="MetalGrid"/>
@@ -165,6 +346,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 			</MountPoints>
 			<BlockPairName>3x1x1HeavyArmor</BlockPairName>
+			<DeformationRatio>0.4</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>60</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+			<PCU>3</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -181,9 +369,10 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x1x1LightArmor.mwm</Model>
 			<Components>
-				<Component Count="50" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="60" />
+				<Component Subtype="SteelPlate" Count="15" />
 			</Components>
-			<CriticalComponent Index="25" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\3x1x1LightArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -196,6 +385,11 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 			</MountPoints>
 			<BlockPairName>3x1x1LightArmor</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<PCU>3</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -211,11 +405,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x3x1HeavyArmor.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="405" />
-				<Component Subtype="MetalGrid" Count="50" />
-				<Component Subtype="SteelPlate" Count="45" />
+				<Component Subtype="SteelPlate" Count="1215" />
+				<Component Subtype="MetalGrid" Count="450" />
+				<Component Subtype="SteelPlate" Count="135" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="MetalGrid"/>
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\3x3x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -228,6 +422,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 			</MountPoints>
 			<BlockPairName>3x3x1HeavyArmor</BlockPairName>
+			<DeformationRatio>0.4</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>180</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+			<PCU>9</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -244,10 +445,10 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x3x1LightArmor.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="200" />
-				<Component Subtype="SteelPlate" Count="25" />
+				<Component Subtype="SteelPlate" Count="180" />
+				<Component Subtype="SteelPlate" Count="45" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\3x3x1LightArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -260,6 +461,11 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 			</MountPoints>
 			<BlockPairName>3x3x1LightArmor</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>72</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<PCU>9</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 
 		<!-- 4 block width -->
@@ -280,11 +486,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\4x1x1HeavyArmor.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="405" /> <!-- 135 -->
-				<Component Subtype="MetalGrid" Count="50" /> <!-- 50 -->
-				<Component Subtype="SteelPlate" Count="45" /> <!-- 15 -->
+				<Component Subtype="SteelPlate" Count="540" />
+				<Component Subtype="MetalGrid" Count="200" />
+				<Component Subtype="SteelPlate" Count="60" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\4x1x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -297,6 +503,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
 			</MountPoints>
 			<BlockPairName>4x1x1HeavyArmor</BlockPairName>
+			<DeformationRatio>0.4</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>80</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+			<PCU>4</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -313,9 +526,10 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\4x1x1LightArmor.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="80" />
+				<Component Subtype="SteelPlate" Count="20" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\4x1x1LightArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -328,6 +542,11 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
 			</MountPoints>
 			<BlockPairName>4x1x1LightArmor</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>32</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<PCU>4</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -344,9 +563,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\4x4x1HeavyArmor.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="2160" />
+				<Component Subtype="MetalGrid" Count="800" />
+				<Component Subtype="SteelPlate" Count="240" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\4x4x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -359,6 +580,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
 			</MountPoints>
 			<BlockPairName>4x4x1HeavyArmor</BlockPairName>
+			<DeformationRatio>0.4</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>320</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+			<PCU>16</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -375,9 +603,10 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\4x4x1LightArmor.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="320" />
+				<Component Subtype="SteelPlate" Count="80" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\4x4x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -390,6 +619,11 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
 			</MountPoints>
 			<BlockPairName>4x4x1LightArmor</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>128</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<PCU>16</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 
 		<!-- 5 block width -->
@@ -410,9 +644,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\5x1x1HeavyArmor.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="675" />
+				<Component Subtype="MetalGrid" Count="250" />
+				<Component Subtype="SteelPlate" Count="75" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\5x1x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -425,6 +661,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 			</MountPoints>
 			<BlockPairName>5x1x1HeavyArmor</BlockPairName>
+			<DeformationRatio>0.4</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>100</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+			<PCU>5</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -441,9 +684,10 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\5x1x1LightArmor.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="100" />
+				<Component Subtype="SteelPlate" Count="25" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\5x1x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -456,6 +700,11 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 			</MountPoints>
 			<BlockPairName>5x1x1LightArmor</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>40</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<PCU>5</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -472,9 +721,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\5x5x1HeavyArmor.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="3375" />
+				<Component Subtype="MetalGrid" Count="1250" />
+				<Component Subtype="SteelPlate" Count="375" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\5x5x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -487,6 +738,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 			</MountPoints>
 			<BlockPairName>5x5x1HeavyArmor</BlockPairName>
+			<DeformationRatio>0.4</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>500</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+			<PCU>25</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -503,9 +761,10 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\5x5x1LightArmor.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="500" />
+				<Component Subtype="SteelPlate" Count="125" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\5x5x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -518,6 +777,11 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 			</MountPoints>
 			<BlockPairName>5x5x1LightArmor</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>200</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<PCU>25</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 
 
@@ -538,9 +802,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\6x1x1HeavyArmor.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="810" />
+				<Component Subtype="MetalGrid" Count="300" />
+				<Component Subtype="SteelPlate" Count="90" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\6x1x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -553,6 +819,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 			</MountPoints>
 			<BlockPairName>6x1x1HeavyArmor</BlockPairName>
+			<DeformationRatio>0.4</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>120</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+			<PCU>6</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -569,9 +842,10 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\6x1x1LightArmor.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="120" />
+				<Component Subtype="SteelPlate" Count="30" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\6x1x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -584,6 +858,11 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 			</MountPoints>
 			<BlockPairName>6x1x1LightArmor</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>48</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<PCU>6</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -600,9 +879,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\6x6x1HeavyArmor.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="4860" />
+				<Component Subtype="MetalGrid" Count="1800" />
+				<Component Subtype="SteelPlate" Count="540" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\6x6x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -615,6 +896,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 			</MountPoints>
 			<BlockPairName>6x6x1HeavyArmor</BlockPairName>
+			<DeformationRatio>0.4</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>720</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+			<PCU>36</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -631,9 +919,10 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\6x6x1LightArmor.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="720" />
+				<Component Subtype="SteelPlate" Count="180" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\6x6x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -646,6 +935,11 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 			</MountPoints>
 			<BlockPairName>6x6x1LightArmor</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>288</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<PCU>36</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 
 		<!-- Small Blocks -->
@@ -665,11 +959,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x1x1HeavyArmorSmall.mwm</Model>
 			<Components>
-				<Component Count="3" Subtype="SteelPlate"/>
-				<Component Count="2" Subtype="SteelPlate"/>
-				<Component Count="1" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="18" />
+				<Component Subtype="MetalGrid" Count="12" />
+				<Component Subtype="SteelPlate" Count="12" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\3x1x1HeavyArmorSmall_BS1.mwm"/>
 			</BuildProgressModels>
@@ -682,6 +976,12 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 			</MountPoints>
 			<BlockPairName>3x1x1HeavyArmor</BlockPairName>
+			<DeformationRatio>0.16</DeformationRatio>
+			<BuildTimeSeconds>18</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<EdgeType>Heavy</EdgeType>
+			<PCU>3</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -697,8 +997,7 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x1x1LightArmorSmall.mwm</Model>
 			<Components>
-				<Component Count="2" Subtype="SteelPlate"/>
-				<Component Count="1" Subtype="SteelPlate"/>
+				<Component Count="3" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -713,6 +1012,12 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 			</MountPoints>
 			<BlockPairName>3x1x1LightArmor</BlockPairName>
+			<DeformationRatio>0.32</DeformationRatio>
+			<BuildTimeSeconds>9</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+			<PCU>3</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -729,11 +1034,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x3x1HeavyArmorSmall.mwm</Model>
 			<Components>
-				<Component Count="3" Subtype="SteelPlate"/>
-				<Component Count="6" Subtype="SteelPlate"/>
-				<Component Count="3" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="27" />
+				<Component Subtype="MetalGrid" Count="18" />
+				<Component Subtype="SteelPlate" Count="18" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\3x3x1HeavyArmorSmall_BS1.mwm"/>
 			</BuildProgressModels>
@@ -746,6 +1051,12 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 			</MountPoints>
 			<BlockPairName>3x3x1HeavyArmor</BlockPairName>
+			<DeformationRatio>0.16</DeformationRatio>
+			<BuildTimeSeconds>27</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<EdgeType>Heavy</EdgeType>
+			<PCU>9</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -761,8 +1072,7 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x3x1LightArmorSmall.mwm</Model>
 			<Components>
-				<Component Count="6" Subtype="SteelPlate"/>
-				<Component Count="3" Subtype="SteelPlate"/>
+				<Component Count="9" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -777,6 +1087,12 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 			</MountPoints>
 			<BlockPairName>3x3x1LightArmor</BlockPairName>
+			<DeformationRatio>0.32</DeformationRatio>
+			<BuildTimeSeconds>27</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+			<PCU>9</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 
 		<!-- 4 block width -->
@@ -797,10 +1113,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\4x1x1HeavyArmorSmall.mwm</Model>
 			<Components>
-				<Component Count="4" Subtype="SteelPlate"/>
-				<Component Count="3" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="12" />
+				<Component Subtype="MetalGrid" Count="8" />
+				<Component Subtype="SteelPlate" Count="8" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\4x1x1HeavyArmorSmall_BS1.mwm"/>
 			</BuildProgressModels>
@@ -813,6 +1130,12 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
 			</MountPoints>
 			<BlockPairName>4x1x1HeavyArmor</BlockPairName>
+			<DeformationRatio>0.16</DeformationRatio>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<EdgeType>Heavy</EdgeType>
+			<PCU>4</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -829,8 +1152,7 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\4x1x1LightArmorSmall.mwm</Model>
 			<Components>
-				<Component Count="3" Subtype="SteelPlate"/>
-				<Component Count="1" Subtype="SteelPlate"/>
+				<Component Count="4" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -845,6 +1167,12 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
 			</MountPoints>
 			<BlockPairName>4x1x1LightArmor</BlockPairName>
+			<DeformationRatio>0.32</DeformationRatio>
+			<BuildTimeSeconds>12</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+			<PCU>4</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -861,10 +1189,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\4x4x1HeavyArmorSmall.mwm</Model>
 			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
-				<Component Count="3" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="48" />
+				<Component Subtype="MetalGrid" Count="32" />
+				<Component Subtype="SteelPlate" Count="32" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\4x4x1HeavyArmorSmall_BS1.mwm"/>
 			</BuildProgressModels>
@@ -877,6 +1206,12 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
 			</MountPoints>
 			<BlockPairName>4x4x1HeavyArmor</BlockPairName>
+			<DeformationRatio>0.16</DeformationRatio>
+			<BuildTimeSeconds>96</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<EdgeType>Heavy</EdgeType>
+			<PCU>16</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -893,8 +1228,7 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\4x4x1LightArmorSmall.mwm</Model>
 			<Components>
-				<Component Count="7" Subtype="SteelPlate"/>
-				<Component Count="1" Subtype="SteelPlate"/>
+				<Component Count="16" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -909,6 +1243,12 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
 			</MountPoints>
 			<BlockPairName>4x4x1LightArmor</BlockPairName>
+			<DeformationRatio>0.32</DeformationRatio>
+			<BuildTimeSeconds>48</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+			<PCU>16</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 
 		<!-- 5 block width -->
@@ -929,11 +1269,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\5x1x1HeavyArmorSmall.mwm</Model>
 			<Components>
-				<Component Count="3" Subtype="SteelPlate"/>
-				<Component Count="3" Subtype="SteelPlate"/>
-				<Component Count="2" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="15" />
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="SteelPlate" Count="10" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\5x1x1HeavyArmorSmall_BS1.mwm"/>
 			</BuildProgressModels>
@@ -946,6 +1286,12 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 			</MountPoints>
 			<BlockPairName>5x1x1HeavyArmor</BlockPairName>
+			<DeformationRatio>0.16</DeformationRatio>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<EdgeType>Heavy</EdgeType>
+			<PCU>5</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -962,8 +1308,7 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\5x1x1LightArmorSmall.mwm</Model>
 			<Components>
-				<Component Count="3" Subtype="SteelPlate"/>
-				<Component Count="2" Subtype="SteelPlate"/>
+				<Component Count="5" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -978,6 +1323,12 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 			</MountPoints>
 			<BlockPairName>5x1x1LightArmor</BlockPairName>
+			<DeformationRatio>0.32</DeformationRatio>
+			<BuildTimeSeconds>15</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+			<PCU>5</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -994,10 +1345,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\5x5x1HeavyArmorSmall.mwm</Model>
 			<Components>
-				<Component Count="30" Subtype="SteelPlate"/>
-				<Component Count="1" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="75" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\5x5x1HeavyArmorSmall_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1010,6 +1362,12 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 			</MountPoints>
 			<BlockPairName>5x5x1HeavyArmor</BlockPairName>
+			<DeformationRatio>0.16</DeformationRatio>
+			<BuildTimeSeconds>150</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<EdgeType>Heavy</EdgeType>
+			<PCU>25</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -1026,8 +1384,7 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\5x5x1LightArmorSmall.mwm</Model>
 			<Components>
-				<Component Count="24" Subtype="SteelPlate"/>
-				<Component Count="1" Subtype="SteelPlate"/>
+				<Component Count="25" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -1042,6 +1399,12 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 			</MountPoints>
 			<BlockPairName>5x5x1LightArmor</BlockPairName>
+			<DeformationRatio>0.32</DeformationRatio>
+			<BuildTimeSeconds>75</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+			<PCU>25</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 
 
@@ -1062,10 +1425,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\6x1x1HeavyArmorSmall.mwm</Model>
 			<Components>
-				<Component Count="9" Subtype="SteelPlate"/>
-				<Component Count="1" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="18" />
+				<Component Subtype="MetalGrid" Count="12" />
+				<Component Subtype="SteelPlate" Count="12" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\6x1x1HeavyArmorSmall_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1078,6 +1442,12 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 			</MountPoints>
 			<BlockPairName>6x1x1HeavyArmor</BlockPairName>
+			<DeformationRatio>0.16</DeformationRatio>
+			<BuildTimeSeconds>36</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<EdgeType>Heavy</EdgeType>
+			<PCU>6</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -1094,8 +1464,7 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\6x1x1LightArmorSmall.mwm</Model>
 			<Components>
-				<Component Count="5" Subtype="SteelPlate"/>
-				<Component Count="1" Subtype="SteelPlate"/>
+				<Component Count="6" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -1110,6 +1479,12 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 			</MountPoints>
 			<BlockPairName>6x1x1LightArmor</BlockPairName>
+			<DeformationRatio>0.32</DeformationRatio>
+			<BuildTimeSeconds>18</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+			<PCU>6</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -1126,10 +1501,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\6x6x1HeavyArmorSmall.mwm</Model>
 			<Components>
-				<Component Count="36" Subtype="SteelPlate"/>
-				<Component Count="8" Subtype="SteelPlate"/>
+				<Component Subtype="SteelPlate" Count="108" />
+				<Component Subtype="MetalGrid" Count="72" />
+				<Component Subtype="SteelPlate" Count="72" />
 			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<CriticalComponent Subtype="MetalGrid" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\6x6x1HeavyArmorSmall_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1142,6 +1518,12 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 			</MountPoints>
 			<BlockPairName>6x6x1HeavyArmor</BlockPairName>
+			<DeformationRatio>0.16</DeformationRatio>
+			<BuildTimeSeconds>216</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<EdgeType>Heavy</EdgeType>
+			<PCU>36</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 		<Definition>
 			<Id>
@@ -1158,8 +1540,7 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\6x6x1LightArmorSmall.mwm</Model>
 			<Components>
-				<Component Count="30" Subtype="SteelPlate"/>
-				<Component Count="3" Subtype="SteelPlate"/>
+				<Component Count="36" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="SteelPlate"/>
 			<BuildProgressModels>
@@ -1174,6 +1555,12 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 			</MountPoints>
 			<BlockPairName>6x6x1LightArmor</BlockPairName>
+			<DeformationRatio>0.32</DeformationRatio>
+			<BuildTimeSeconds>108</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+			<PCU>36</PCU>
+			<IsAirTight>true</IsAirTight>
 		</Definition>
 
 
@@ -1189,20 +1576,22 @@
 				<TypeId>CubeBlock</TypeId>
 				<SubtypeId>3x1x1HighTechArmor</SubtypeId>
 			</Id>
-			<DisplayName>3x1x1 HightTech Armor</DisplayName>
-			<Description>3x1x1 HightTech Armor</Description>
+			<DisplayName>3x1x1 HighTech Armor</DisplayName>
+			<Description>3x1x1 HighTech Armor</Description>
 			<Icon>Textures\Icons\311HighTechArmor.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x1x1ArmorHighTech.mwm</Model>
-			<Components>
-				<Component Count="50" Subtype="SteelPlate"/>
-				<Component Count="37" Subtype="BulletproofGlass"/>
-				<Component Count="25" Subtype="SteelPlate"/>
-			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+      			<Components>
+        			<Component Subtype="SteelPlate" Count="750" />
+				<Component Subtype="BulletproofGlass" Count="75" />
+        			<Component Subtype="LargeTube" Count="30" />
+				<Component Subtype="MetalGrid" Count="150" />
+				<Component Subtype="SteelPlate" Count="150" />
+      			</Components>
+      			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\3x1x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1215,6 +1604,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 			</MountPoints>
 			<BlockPairName>3x1x1HighTechArmor</BlockPairName>
+      			<DeformationRatio>0.2</DeformationRatio>
+      			<EdgeType>Heavy</EdgeType>
+      			<BuildTimeSeconds>70</BuildTimeSeconds>
+      			<DisassembleRatio>5</DisassembleRatio>
+      			<GeneralDamageMultiplier>0.2</GeneralDamageMultiplier>
+      			<PCU>6</PCU>
+      			<IsAirTight>true</IsAirTight>
 		</Definition>
 
 		<Definition>
@@ -1222,20 +1618,22 @@
 				<TypeId>CubeBlock</TypeId>
 				<SubtypeId>3x3x1HighTechArmor</SubtypeId>
 			</Id>
-			<DisplayName>3x3x1 HightTech Armor</DisplayName>
-			<Description>3x3x1 HightTech Armor</Description>
+			<DisplayName>3x3x1 HighTech Armor</DisplayName>
+			<Description>3x3x1 HighTech Armor</Description>
 			<Icon>Textures\Icons\331HighTechArmor.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="3" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x3x1ArmorHighTech.mwm</Model>
-			<Components>
-				<Component Count="175" Subtype="SteelPlate"/>
-				<Component Count="112" Subtype="BulletproofGlass"/>
-				<Component Count="50" Subtype="SteelPlate"/>
-			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+      			<Components>
+        			<Component Subtype="SteelPlate" Count="2250" />
+				<Component Subtype="BulletproofGlass" Count="225" />
+        			<Component Subtype="LargeTube" Count="90" />
+				<Component Subtype="MetalGrid" Count="400" />
+				<Component Subtype="SteelPlate" Count="400" />
+      			</Components>
+      			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\3x3x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1248,6 +1646,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 			</MountPoints>
 			<BlockPairName>3x3x1HighTechArmor</BlockPairName>
+      			<DeformationRatio>0.2</DeformationRatio>
+      			<EdgeType>Heavy</EdgeType>
+      			<BuildTimeSeconds>190</BuildTimeSeconds>
+      			<DisassembleRatio>5</DisassembleRatio>
+      			<GeneralDamageMultiplier>0.2</GeneralDamageMultiplier>
+      			<PCU>18</PCU>
+      			<IsAirTight>true</IsAirTight>
 		</Definition>
 
 
@@ -1259,8 +1664,8 @@
 				<TypeId>CubeBlock</TypeId>
 				<SubtypeId>4x1x1HighTechArmor</SubtypeId>
 			</Id>
-			<DisplayName>4x1x1 HightTech Armor</DisplayName>
-			<Description>4x1x1 HightTech Armor</Description>
+			<DisplayName>4x1x1 HighTech Armor</DisplayName>
+			<Description>4x1x1 HighTech Armor</Description>
 			<Icon>Textures\Icons\411ArmorStick.dds</Icon>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
@@ -1268,12 +1673,14 @@
 			<Size x="1" y="1" z="4"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\4x1x1ArmorHighTech.mwm</Model>
-			<Components>
-				<Component Count="75" Subtype="SteelPlate"/>
-				<Component Count="50" Subtype="BulletproofGlass"/>
-				<Component Count="15" Subtype="SteelPlate"/>
-			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+      			<Components>
+        			<Component Subtype="SteelPlate" Count="1000" />
+				<Component Subtype="BulletproofGlass" Count="100" />
+        			<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="MetalGrid" Count="200" />
+				<Component Subtype="SteelPlate" Count="200" />
+      			</Components>
+      			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\4x1x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1286,6 +1693,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
 			</MountPoints>
 			<BlockPairName>4x1x1HighTechArmor</BlockPairName>
+      			<DeformationRatio>0.2</DeformationRatio>
+      			<EdgeType>Heavy</EdgeType>
+      			<BuildTimeSeconds>90</BuildTimeSeconds>
+      			<DisassembleRatio>5</DisassembleRatio>
+      			<GeneralDamageMultiplier>0.2</GeneralDamageMultiplier>
+      			<PCU>8</PCU>
+      			<IsAirTight>true</IsAirTight>
 		</Definition>
 
 		<Definition>
@@ -1293,8 +1707,8 @@
 				<TypeId>CubeBlock</TypeId>
 				<SubtypeId>4x4x1HighTechArmor</SubtypeId>
 			</Id>
-			<DisplayName>4x4x1 HightTech Armor</DisplayName>
-			<Description>4x4x1 HightTech Armor</Description>
+			<DisplayName>4x4x1 HighTech Armor</DisplayName>
+			<Description>4x4x1 HighTech Armor</Description>
 			<Icon>Textures\Icons\441ArmorSlab.dds</Icon>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
@@ -1302,12 +1716,14 @@
 			<Size x="1" y="4" z="4"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\4x4x1ArmorHighTech.mwm</Model>
-			<Components>
-				<Component Count="350" Subtype="SteelPlate"/>
-				<Component Count="200" Subtype="BulletproofGlass"/>
-				<Component Count="50" Subtype="SteelPlate"/>
-			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+      			<Components>
+        			<Component Subtype="SteelPlate" Count="4000" />
+				<Component Subtype="BulletproofGlass" Count="400" />
+        			<Component Subtype="LargeTube" Count="160" />
+				<Component Subtype="MetalGrid" Count="800" />
+				<Component Subtype="SteelPlate" Count="800" />
+      			</Components>
+      			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\4x4x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1320,6 +1736,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
 			</MountPoints>
 			<BlockPairName>4x4x1HighTechArmor</BlockPairName>
+      			<DeformationRatio>0.2</DeformationRatio>
+      			<EdgeType>Heavy</EdgeType>
+      			<BuildTimeSeconds>330</BuildTimeSeconds>
+      			<DisassembleRatio>5</DisassembleRatio>
+      			<GeneralDamageMultiplier>0.2</GeneralDamageMultiplier>
+      			<PCU>32</PCU>
+      			<IsAirTight>true</IsAirTight>
 		</Definition>
 
 
@@ -1331,8 +1754,8 @@
 				<TypeId>CubeBlock</TypeId>
 				<SubtypeId>5x1x1HighTechArmor</SubtypeId>
 			</Id>
-			<DisplayName>5x1x1 HightTech Armor</DisplayName>
-			<Description>5x1x1 HightTech Armor</Description>
+			<DisplayName>5x1x1 HighTech Armor</DisplayName>
+			<Description>5x1x1 HighTech Armor</Description>
 			<Icon>Textures\Icons\511ArmorStick.dds</Icon>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
@@ -1340,12 +1763,14 @@
 			<Size x="1" y="1" z="5"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\5x1x1ArmorHighTech.mwm</Model>
-			<Components>
-				<Component Count="100" Subtype="SteelPlate"/>
-				<Component Count="62" Subtype="BulletproofGlass"/>
-				<Component Count="25" Subtype="SteelPlate"/>
-			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+      			<Components>
+        			<Component Subtype="SteelPlate" Count="1250" />
+				<Component Subtype="BulletproofGlass" Count="125" />
+        			<Component Subtype="LargeTube" Count="50" />
+				<Component Subtype="MetalGrid" Count="250" />
+				<Component Subtype="SteelPlate" Count="250" />
+      			</Components>
+      			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\5x1x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1358,6 +1783,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 			</MountPoints>
 			<BlockPairName>5x1x1HighTechArmor</BlockPairName>
+      			<DeformationRatio>0.2</DeformationRatio>
+      			<EdgeType>Heavy</EdgeType>
+      			<BuildTimeSeconds>110</BuildTimeSeconds>
+      			<DisassembleRatio>5</DisassembleRatio>
+      			<GeneralDamageMultiplier>0.2</GeneralDamageMultiplier>
+      			<PCU>10</PCU>
+      			<IsAirTight>true</IsAirTight>
 		</Definition>
 
 		<Definition>
@@ -1365,8 +1797,8 @@
 				<TypeId>CubeBlock</TypeId>
 				<SubtypeId>5x5x1HighTechArmor</SubtypeId>
 			</Id>
-			<DisplayName>5x5x1 HightTech Armor</DisplayName>
-			<Description>5x5x1 HightTech Armor</Description>
+			<DisplayName>5x5x1 HighTech Armor</DisplayName>
+			<Description>5x5x1 HighTech Armor</Description>
 			<Icon>Textures\Icons\551ArmorSlab.dds</Icon>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
@@ -1374,12 +1806,14 @@
 			<Size x="1" y="5" z="5"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\5x5x1ArmorHighTech.mwm</Model>
-			<Components>
-				<Component Count="525" Subtype="SteelPlate"/>
-				<Component Count="25" Subtype="BulletproofGlass"/>
-				<Component Count="100" Subtype="SteelPlate"/>
-			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+      			<Components>
+        			<Component Subtype="SteelPlate" Count="6250" />
+				<Component Subtype="BulletproofGlass" Count="625" />
+        			<Component Subtype="LargeTube" Count="250" />
+				<Component Subtype="MetalGrid" Count="1250" />
+				<Component Subtype="SteelPlate" Count="1250" />
+      			</Components>
+      			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\5x5x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1392,6 +1826,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 			</MountPoints>
 			<BlockPairName>5x5x1HighTechArmor</BlockPairName>
+      			<DeformationRatio>0.2</DeformationRatio>
+      			<EdgeType>Heavy</EdgeType>
+      			<BuildTimeSeconds>510</BuildTimeSeconds>
+      			<DisassembleRatio>5</DisassembleRatio>
+      			<GeneralDamageMultiplier>0.2</GeneralDamageMultiplier>
+      			<PCU>50</PCU>
+      			<IsAirTight>true</IsAirTight>
 		</Definition>
 
 
@@ -1403,8 +1844,8 @@
 				<TypeId>CubeBlock</TypeId>
 				<SubtypeId>6x1x1HighTechArmor</SubtypeId>
 			</Id>
-			<DisplayName>6x1x1 HightTech Armor</DisplayName>
-			<Description>6x1x1 HightTech Armor</Description>
+			<DisplayName>6x1x1 HighTech Armor</DisplayName>
+			<Description>6x1x1 HighTech Armor</Description>
 			<Icon>Textures\Icons\611ArmorStick.dds</Icon>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
@@ -1412,12 +1853,14 @@
 			<Size x="1" y="1" z="6"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\6x1x1ArmorHighTech.mwm</Model>
-			<Components>
-				<Component Count="125" Subtype="SteelPlate"/>
-				<Component Count="75" Subtype="BulletproofGlass"/>
-				<Component Count="25" Subtype="SteelPlate"/>
-			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+      			<Components>
+        			<Component Subtype="SteelPlate" Count="1500" />
+				<Component Subtype="BulletproofGlass" Count="150" />
+        			<Component Subtype="LargeTube" Count="60" />
+				<Component Subtype="MetalGrid" Count="300" />
+				<Component Subtype="SteelPlate" Count="300" />
+      			</Components>
+      			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\6x1x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1430,6 +1873,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 			</MountPoints>
 			<BlockPairName>6x1x1HighTechArmor</BlockPairName>
+      			<DeformationRatio>0.2</DeformationRatio>
+      			<EdgeType>Heavy</EdgeType>
+      			<BuildTimeSeconds>130</BuildTimeSeconds>
+      			<DisassembleRatio>5</DisassembleRatio>
+      			<GeneralDamageMultiplier>0.2</GeneralDamageMultiplier>
+      			<PCU>12</PCU>
+      			<IsAirTight>true</IsAirTight>
 		</Definition>
 
 		<Definition>
@@ -1437,8 +1887,8 @@
 				<TypeId>CubeBlock</TypeId>
 				<SubtypeId>6x6x1HighTechArmor</SubtypeId>
 			</Id>
-			<DisplayName>6x6x1 HightTech Armor</DisplayName>
-			<Description>6x6x1 HightTech Armor</Description>
+			<DisplayName>6x6x1 HighTech Armor</DisplayName>
+			<Description>6x6x1 HighTech Armor</Description>
 			<Icon>Textures\Icons\661ArmorSlab.dds</Icon>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
@@ -1446,12 +1896,14 @@
 			<Size x="1" y="6" z="6"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\6x6x1ArmorHighTech.mwm</Model>
-			<Components>
-				<Component Count="550" Subtype="SteelPlate"/>
-				<Component Count="450" Subtype="BulletproofGlass"/>
-				<Component Count="200" Subtype="SteelPlate"/>
-			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+      			<Components>
+        			<Component Subtype="SteelPlate" Count="9000" />
+				<Component Subtype="BulletproofGlass" Count="900" />
+        			<Component Subtype="LargeTube" Count="360" />
+				<Component Subtype="MetalGrid" Count="1800" />
+				<Component Subtype="SteelPlate" Count="1800" />
+      			</Components>
+      			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\6x6x1HeavyArmor_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1464,6 +1916,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 			</MountPoints>
 			<BlockPairName>6x6x1HighTechArmor</BlockPairName>
+      			<DeformationRatio>0.2</DeformationRatio>
+      			<EdgeType>Heavy</EdgeType>
+      			<BuildTimeSeconds>730</BuildTimeSeconds>
+      			<DisassembleRatio>5</DisassembleRatio>
+      			<GeneralDamageMultiplier>0.2</GeneralDamageMultiplier>
+      			<PCU>72</PCU>
+      			<IsAirTight>true</IsAirTight>
 		</Definition>
 
 
@@ -1474,8 +1933,8 @@
 				<TypeId>CubeBlock</TypeId>
 				<SubtypeId>3x1x1HighTechArmorSmall</SubtypeId>
 			</Id>
-			<DisplayName>3x1x1 HightTech Armor</DisplayName>
-			<Description>3x1x1 HightTech Armor</Description>
+			<DisplayName>3x1x1 HighTech Armor</DisplayName>
+			<Description>3x1x1 HighTech Armor</Description>
 			<Icon>Textures\Icons\311HighTechArmor.dds</Icon>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
@@ -1483,12 +1942,13 @@
 			<Size x="1" y="1" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x1x1ArmorHighTechSmall.mwm</Model>
-			<Components>
-				<Component Count="2" Subtype="SteelPlate"/>
-				<Component Count="2" Subtype="BulletproofGlass"/>
-				<Component Count="1" Subtype="SteelPlate"/>
-			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+      			<Components>
+        			<Component Subtype="SteelPlate" Count="135" />
+				<Component Subtype="BulletproofGlass" Count="3" />
+        			<Component Subtype="MetalGrid" Count="3" />
+				<Component Subtype="SteelPlate" Count="15" />
+      			</Components>
+      			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\3x1x1HeavyArmorSmall_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1501,6 +1961,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 			</MountPoints>
 			<BlockPairName>3x1x1HighTechArmor</BlockPairName>
+      			<DeformationRatio>0.15</DeformationRatio>
+      			<EdgeType>Heavy</EdgeType>
+      			<BuildTimeSeconds>20</BuildTimeSeconds>
+      			<DisassembleRatio>5</DisassembleRatio>
+      			<PCU>6</PCU>
+      			<IsAirTight>true</IsAirTight>
+      			<GeneralDamageMultiplier>0.15</GeneralDamageMultiplier>
 		</Definition>
 
 		<Definition>
@@ -1508,8 +1975,8 @@
 				<TypeId>CubeBlock</TypeId>
 				<SubtypeId>3x3x1HighTechArmorSmall</SubtypeId>
 			</Id>
-			<DisplayName>3x3x1 HightTech Armor</DisplayName>
-			<Description>3x3x1 HightTech Armor</Description>
+			<DisplayName>3x3x1 HighTech Armor</DisplayName>
+			<Description>3x3x1 HighTech Armor</Description>
 			<Icon>Textures\Icons\331HighTechArmor.dds</Icon>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
@@ -1517,12 +1984,13 @@
 			<Size x="1" y="3" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\3x3x1ArmorHighTechSmall.mwm</Model>
-			<Components>
-				<Component Count="7" Subtype="SteelPlate"/>
-				<Component Count="5" Subtype="BulletproofGlass"/>
-				<Component Count="2" Subtype="SteelPlate"/>
-			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+      			<Components>
+        			<Component Subtype="SteelPlate" Count="405" />
+				<Component Subtype="BulletproofGlass" Count="9" />
+        			<Component Subtype="MetalGrid" Count="9" />
+				<Component Subtype="SteelPlate" Count="45" />
+      			</Components>
+      			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\3x3x1HeavyArmorSmall_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1535,6 +2003,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0"/>
 			</MountPoints>
 			<BlockPairName>3x3x1HighTechArmor</BlockPairName>
+      			<DeformationRatio>0.15</DeformationRatio>
+      			<EdgeType>Heavy</EdgeType>
+      			<BuildTimeSeconds>29</BuildTimeSeconds>
+      			<DisassembleRatio>5</DisassembleRatio>
+      			<PCU>18</PCU>
+      			<IsAirTight>true</IsAirTight>
+      			<GeneralDamageMultiplier>0.15</GeneralDamageMultiplier>
 		</Definition>
 
 
@@ -1546,8 +2021,8 @@
 				<TypeId>CubeBlock</TypeId>
 				<SubtypeId>4x1x1HighTechArmorSmall</SubtypeId>
 			</Id>
-			<DisplayName>4x1x1 HightTech Armor</DisplayName>
-			<Description>4x1x1 HightTech Armor</Description>
+			<DisplayName>4x1x1 HighTech Armor</DisplayName>
+			<Description>4x1x1 HighTech Armor</Description>
 			<Icon>Textures\Icons\411ArmorStick.dds</Icon>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
@@ -1555,12 +2030,13 @@
 			<Size x="1" y="1" z="4"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\4x1x1ArmorHighTechSmall.mwm</Model>
-			<Components>
-				<Component Count="3" Subtype="SteelPlate"/>
-				<Component Count="2" Subtype="BulletproofGlass"/>
-				<Component Count="1" Subtype="SteelPlate"/>
-			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+      			<Components>
+        			<Component Subtype="SteelPlate" Count="180" />
+				<Component Subtype="BulletproofGlass" Count="4" />
+        			<Component Subtype="MetalGrid" Count="4" />
+				<Component Subtype="SteelPlate" Count="20" />
+      			</Components>
+      			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\4x1x1HeavyArmorSmall_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1573,6 +2049,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
 			</MountPoints>
 			<BlockPairName>4x1x1HighTechArmor</BlockPairName>
+      			<DeformationRatio>0.15</DeformationRatio>
+      			<EdgeType>Heavy</EdgeType>
+      			<BuildTimeSeconds>26</BuildTimeSeconds>
+      			<DisassembleRatio>5</DisassembleRatio>
+      			<PCU>8</PCU>
+      			<IsAirTight>true</IsAirTight>
+      			<GeneralDamageMultiplier>0.15</GeneralDamageMultiplier>
 		</Definition>
 
 		<Definition>
@@ -1580,8 +2063,8 @@
 				<TypeId>CubeBlock</TypeId>
 				<SubtypeId>4x4x1HighTechArmorSmall</SubtypeId>
 			</Id>
-			<DisplayName>4x4x1 HightTech Armor</DisplayName>
-			<Description>4x4x1 HightTech Armor</Description>
+			<DisplayName>4x4x1 HighTech Armor</DisplayName>
+			<Description>4x4x1 HighTech Armor</Description>
 			<Icon>Textures\Icons\441ArmorSlab.dds</Icon>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
@@ -1589,12 +2072,13 @@
 			<Size x="1" y="4" z="4"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\4x4x1ArmorHighTechSmall.mwm</Model>
-			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
-				<Component Count="8" Subtype="BulletproofGlass"/>
-				<Component Count="6" Subtype="SteelPlate"/>
-			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+      			<Components>
+        			<Component Subtype="SteelPlate" Count="720" />
+				<Component Subtype="BulletproofGlass" Count="16" />
+        			<Component Subtype="MetalGrid" Count="16" />
+				<Component Subtype="SteelPlate" Count="80" />
+      			</Components>
+      			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\4x4x1HeavyArmorSmall_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1607,6 +2091,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="4.0"/>
 			</MountPoints>
 			<BlockPairName>4x4x1HighTechArmor</BlockPairName>
+      			<DeformationRatio>0.15</DeformationRatio>
+      			<EdgeType>Heavy</EdgeType>
+      			<BuildTimeSeconds>98</BuildTimeSeconds>
+      			<DisassembleRatio>5</DisassembleRatio>
+      			<PCU>32</PCU>
+      			<IsAirTight>true</IsAirTight>
+      			<GeneralDamageMultiplier>0.15</GeneralDamageMultiplier>
 		</Definition>
 
 
@@ -1618,8 +2109,8 @@
 				<TypeId>CubeBlock</TypeId>
 				<SubtypeId>5x1x1HighTechArmorSmall</SubtypeId>
 			</Id>
-			<DisplayName>5x1x1 HightTech Armor</DisplayName>
-			<Description>5x1x1 HightTech Armor</Description>
+			<DisplayName>5x1x1 HighTech Armor</DisplayName>
+			<Description>5x1x1 HighTech Armor</Description>
 			<Icon>Textures\Icons\511ArmorStick.dds</Icon>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
@@ -1627,12 +2118,13 @@
 			<Size x="1" y="1" z="5"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\5x1x1ArmorHighTechSmall.mwm</Model>
-			<Components>
-				<Component Count="3" Subtype="SteelPlate"/>
-				<Component Count="3" Subtype="BulletproofGlass"/>
-				<Component Count="2" Subtype="SteelPlate"/>
-			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+      			<Components>
+        			<Component Subtype="SteelPlate" Count="225" />
+				<Component Subtype="BulletproofGlass" Count="5" />
+        			<Component Subtype="MetalGrid" Count="5" />
+				<Component Subtype="SteelPlate" Count="25" />
+      			</Components>
+      			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\5x1x1HeavyArmorSmall_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1645,6 +2137,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 			</MountPoints>
 			<BlockPairName>5x1x1HighTechArmor</BlockPairName>
+      			<DeformationRatio>0.15</DeformationRatio>
+      			<EdgeType>Heavy</EdgeType>
+      			<BuildTimeSeconds>32</BuildTimeSeconds>
+      			<DisassembleRatio>5</DisassembleRatio>
+      			<PCU>10</PCU>
+      			<IsAirTight>true</IsAirTight>
+      			<GeneralDamageMultiplier>0.15</GeneralDamageMultiplier>
 		</Definition>
 
 		<Definition>
@@ -1652,8 +2151,8 @@
 				<TypeId>CubeBlock</TypeId>
 				<SubtypeId>5x5x1HighTechArmorSmall</SubtypeId>
 			</Id>
-			<DisplayName>5x5x1 HightTech Armor</DisplayName>
-			<Description>5x5x1 HightTech Armor</Description>
+			<DisplayName>5x5x1 HighTech Armor</DisplayName>
+			<Description>5x5x1 HighTech Armor</Description>
 			<Icon>Textures\Icons\551ArmorSlab.dds</Icon>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
@@ -1661,12 +2160,13 @@
 			<Size x="1" y="5" z="5"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\5x5x1ArmorHighTechSmall.mwm</Model>
-			<Components>
-				<Component Count="20" Subtype="SteelPlate"/>
-				<Component Count="12" Subtype="BulletproofGlass"/>
-				<Component Count="5" Subtype="SteelPlate"/>
-			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+      			<Components>
+        			<Component Subtype="SteelPlate" Count="1125" />
+				<Component Subtype="BulletproofGlass" Count="25" />
+        			<Component Subtype="MetalGrid" Count="25" />
+				<Component Subtype="SteelPlate" Count="125" />
+      			</Components>
+      			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\5x5x1HeavyArmorSmall_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1679,6 +2179,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
 			</MountPoints>
 			<BlockPairName>5x5x1HighTechArmor</BlockPairName>
+      			<DeformationRatio>0.15</DeformationRatio>
+      			<EdgeType>Heavy</EdgeType>
+      			<BuildTimeSeconds>152</BuildTimeSeconds>
+      			<DisassembleRatio>5</DisassembleRatio>
+      			<PCU>50</PCU>
+      			<IsAirTight>true</IsAirTight>
+      			<GeneralDamageMultiplier>0.15</GeneralDamageMultiplier>
 		</Definition>
 
 
@@ -1690,8 +2197,8 @@
 				<TypeId>CubeBlock</TypeId>
 				<SubtypeId>6x1x1HighTechArmorSmall</SubtypeId>
 			</Id>
-			<DisplayName>6x1x1 HightTech Armor</DisplayName>
-			<Description>6x1x1 HightTech Armor</Description>
+			<DisplayName>6x1x1 HighTech Armor</DisplayName>
+			<Description>6x1x1 HighTech Armor</Description>
 			<Icon>Textures\Icons\611ArmorStick.dds</Icon>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
@@ -1699,12 +2206,13 @@
 			<Size x="1" y="1" z="6"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\6x1x1ArmorHighTechSmall.mwm</Model>
-			<Components>
-				<Component Count="4" Subtype="SteelPlate"/>
-				<Component Count="3" Subtype="BulletproofGlass"/>
-				<Component Count="2" Subtype="SteelPlate"/>
-			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+      			<Components>
+        			<Component Subtype="SteelPlate" Count="270" />
+				<Component Subtype="BulletproofGlass" Count="6" />
+        			<Component Subtype="MetalGrid" Count="6" />
+				<Component Subtype="SteelPlate" Count="30" />
+      			</Components>
+      			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\6x1x1HeavyArmorSmall_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1717,6 +2225,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 			</MountPoints>
 			<BlockPairName>6x1x1HighTechArmor</BlockPairName>
+      			<DeformationRatio>0.15</DeformationRatio>
+      			<EdgeType>Heavy</EdgeType>
+      			<BuildTimeSeconds>38</BuildTimeSeconds>
+      			<DisassembleRatio>5</DisassembleRatio>
+      			<PCU>12</PCU>
+      			<IsAirTight>true</IsAirTight>
+      			<GeneralDamageMultiplier>0.15</GeneralDamageMultiplier>
 		</Definition>
 
 		<Definition>
@@ -1724,8 +2239,8 @@
 				<TypeId>CubeBlock</TypeId>
 				<SubtypeId>6x6x1HighTechArmorSmall</SubtypeId>
 			</Id>
-			<DisplayName>6x6x1 HightTech Armor</DisplayName>
-			<Description>6x6x1 HightTech Armor</Description>
+			<DisplayName>6x6x1 HighTech Armor</DisplayName>
+			<Description>6x6x1 HighTech Armor</Description>
 			<Icon>Textures\Icons\661ArmorSlab.dds</Icon>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Small</CubeSize>
@@ -1733,12 +2248,13 @@
 			<Size x="1" y="6" z="6"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\6x6x1ArmorHighTechSmall.mwm</Model>
-			<Components>
-				<Component Count="30" Subtype="SteelPlate"/>
-				<Component Count="18" Subtype="BulletproofGlass"/>
-				<Component Count="6" Subtype="SteelPlate"/>
-			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+      			<Components>
+        			<Component Subtype="SteelPlate" Count="1620" />
+				<Component Subtype="BulletproofGlass" Count="36" />
+        			<Component Subtype="MetalGrid" Count="36" />
+				<Component Subtype="SteelPlate" Count="180" />
+      			</Components>
+      			<CriticalComponent Subtype="BulletproofGlass" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\6x6x1HeavyArmorSmall_BS1.mwm"/>
 			</BuildProgressModels>
@@ -1751,6 +2267,13 @@
 				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="6.0"/>
 			</MountPoints>
 			<BlockPairName>6x6x1HighTechArmor</BlockPairName>
+      			<DeformationRatio>0.15</DeformationRatio>
+      			<EdgeType>Heavy</EdgeType>
+      			<BuildTimeSeconds>218</BuildTimeSeconds>
+      			<DisassembleRatio>5</DisassembleRatio>
+      			<PCU>72</PCU>
+      			<IsAirTight>true</IsAirTight>
+      			<GeneralDamageMultiplier>0.15</GeneralDamageMultiplier>
 		</Definition>
 
 
