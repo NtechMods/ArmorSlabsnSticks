@@ -1,0 +1,14 @@
+Running from: C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\ArmorSlabsnSticks\Models\Cubes\armor\ 
+Command: D:\models\MwmBuilder_Kreeg\MwmBuilder.exe /f /s:C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\ArmorSlabsnSticks\Models\Cubes\armor\ /m:SZshieldarmortest*.fbx /o:C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\ArmorSlabsnSticks\Models\Cubes\armor\ /x:D:\models\SEUT\Materials\ 
+: WARNING: 
+    Could not find Materials library folder.
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\ArmorSlabsnSticks\Models\Cubes\armor\SZshieldarmortest.fbx: WARNING: 
+    Material: SafeZoneShield_Material is already defined in the processor. Not adding it again..
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\ArmorSlabsnSticks\Models\Cubes\armor\SZshieldarmortest.fbx: WARNING: 
+    Texture Textures\Models\Cubes\armor\HTSquare_cm.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\ArmorSlabsnSticks\Models\Cubes\armor\SZshieldarmortest.fbx: WARNING: 
+    Texture Textures\Models\Cubes\armor\HTSquare_ng.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\ArmorSlabsnSticks\Models\Cubes\armor\SZshieldarmortest.fbx: WARNING: 
+    Texture Textures\Models\Cubes\armor\HTSquare_add.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\ArmorSlabsnSticks\Models\Cubes\armor\SZshieldarmortest.fbx: 
+    : Finished in 0.3s
